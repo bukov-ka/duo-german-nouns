@@ -25,8 +25,16 @@ def extract_german_words(images_folder):
     
     return german_words
 
+def save_words_to_file(words, output_file):
+    with open(output_file, 'w', encoding='utf-8') as f:
+        for word in words:
+            f.write(f"{word}\n")
+    print(f"Words saved to {output_file}")
+
 # Use the function
 images_folder = 'images'
+output_file = 'extracted_german_words.txt'
+
 print(f"Processing images from folder: {images_folder}")
 
 if not os.path.exists(images_folder):
@@ -34,6 +42,9 @@ if not os.path.exists(images_folder):
     exit(1)
 
 result = extract_german_words(images_folder)
+
+# Save the results to a file
+save_words_to_file(result, output_file)
 
 # Print the results
 if result:
@@ -44,4 +55,5 @@ else:
     print("No German words were extracted.")
 
 print(f"\nTotal words extracted: {len(result)}")
+print(f"Words have been saved to '{output_file}'")
 input("Press Enter to exit...")

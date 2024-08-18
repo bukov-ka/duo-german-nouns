@@ -38,7 +38,6 @@ def extract_word_images(screenshots_folder, output_folder):
                 bar_scan_start = 600  # Start scanning 600px from the left edge
                 bar_scan_end = min(bar_scan_start + 50, img.width)  # Scan a 50px wide area, but not beyond image width
                 bar_positions = find_horizontal_bars(img_array, bar_scan_start, bar_scan_end)
-                print(bar_positions)
                 
                 # Extract words using bar positions and fixed height
                 for bar_y in bar_positions:
