@@ -1,37 +1,47 @@
 import dewiktionaryparser as dw
+import json
 
 # Initialize a dictionary for grammatical information
 word_entries = dw.GermanNounEntriesDict()
 
-# Generate entries from the Wiktionary XML file
-# word_entries.generate_entries('./data/dewiktionary-latest-pages-meta-current.xml')
-
-# Save the resulting dictionary to a JSON file
-# word_entries.export_to_json('./data/de_noun_entries.json')
-
 # Retrieve the dictionary from the JSON file
 word_entries.retrieve_from_json('./data/de_noun_entries.json')
 
-# Example: Access the gender information for the word "Fußball"
-word = "Fußball"
-if word in word_entries:
-    entry = word_entries[word]
-    
-    # Extracting gender
-    gender = None
-    plural_form = None
-    for usage in entry.values():
-        gender = usage['gen_case_num']['genus']['sg1'][0]  # Accessing gender
+# Path to the file containing the extracted German words
+input_file_path = './extracted_german_words.txt'
+
+# Output data structure
+output_data = []
+
+# Process each word in the input file
+with open(input_file_path, 'r', encoding='utf-8') as file:
+    for line in file:
+        word = line.strip()  # Remove any leading/trailing whitespace
         
-        # Extracting the plural form in the nominative case
-        if 'nominativ' in usage['gen_case_num'] and 'plural' in usage['gen_case_num']['nominativ']:
-            plural_form = usage['gen_case_num']['nominativ']['plural']['pl1'][0]
-    
-    # Print the results
-    print(f"The gender of '{word}' is {gender}.")
-    if plural_form:
-        print(f"The plural form of '{word}' in the nominative case is '{plural_form}'.")
-    else:
-        print(f"Plural form in the nominative case not found for '{word}'.")
-else:
-    print(f"The word '{word}' was not found in the dictionary.")
+        # Check if the word is in the dictionary and if it's a noun
+        if word in word_entries:
+            entry = word_entries[word]
+            gender = None
+            plural_form = ""
+
+            for usage in entry.values():
+                if 'gen_case_num' in usage:  # Ensure it has grammatical information (likely a noun)
+                    genus = usage['gen_case_num']['genus'].get('sg1', [])
+                    if genus:  # Check if the genus list is not empty
+                        gender = genus[0]
+
+                    # Extracting the plural form in the nominative case
+                    if 'nominativ' in usage['gen_case_num'] and 'plural' in usage['gen_case_num']['nominativ']:
+                        plural_forms = usage['gen_case_num']['nominativ']['plural'].get('pl1', [])
+                        if plural_forms:  # Check if the list is not empty
+                            plural_form = plural_forms[0]
+            
+            if gender:  # Only add to output if gender is not empty
+                output_data.append([word, gender, plural_form])
+
+# Save the output data to a JSON file
+output_file_path = './german_nouns_with_gender_and_plural.json'
+with open(output_file_path, 'w', encoding='utf-8') as outfile:
+    json.dump(output_data, outfile, ensure_ascii=False, indent=4)
+
+print(f"Data extraction completed. Results saved to {output_file_path}.")
