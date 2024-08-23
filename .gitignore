@@ -1,2 +1,3 @@
 /words.scripts/images/*.png
 /words.scripts/data
+node_modules
