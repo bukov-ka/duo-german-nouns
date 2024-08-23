@@ -19,7 +19,9 @@ module.exports = {
   output: {
     filename: "bundle.js",
     path: path.resolve(__dirname, "dist"),
-    clean: true, // This will clean the dist folder before each build
+    clean: true,
+    publicPath:
+      process.env.NODE_ENV === "production" ? "/duo-german-nouns/" : "/",
   },
   plugins: [
     new HtmlWebpackPlugin({
