@@ -1,30 +1,70 @@
-<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>German Noun Gender Practice</title><style>body {
-            font-family: Arial, sans-serif;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-            background-color: #f0f0f0;
-        }
-        #app {
-            text-align: center;
-            background-color: white;
-            padding: 2rem;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        }
-        #word {
-            font-size: 2rem;
-            margin-bottom: 1rem;
-        }
-        button {
-            font-size: 1.2rem;
-            margin: 0.5rem;
-            padding: 0.5rem 1rem;
-            cursor: pointer;
-        }
-        #feedback {
-            margin-top: 1rem;
-            font-weight: bold;
-        }</style><script defer="defer" src="/duo-german-nouns/bundle.js"></script></head><body><div id="app"><div id="word"></div><div id="buttons"><button id="der">der</button> <button id="die">die</button> <button id="das">das</button></div><div id="feedback"></div><button id="continue" style="display: none;">Continue</button></div></body></html>
+<!doctype html><html lang="en"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"/><title>German Noun Gender Practice</title><style>body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        background-color: #f0f8ff;
+      }
+      #app {
+        text-align: center;
+        background-color: white;
+        padding: 2rem;
+        border-radius: 20px;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        width: 90%;
+        max-width: 350px;
+        height: 480px; /* Fixed height */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+      #word {
+        font-size: 3rem;
+        margin-bottom: 0.5rem;
+        font-weight: bold;
+      }
+      #plural,
+      #translation {
+        font-size: 1.2rem;
+        color: #666;
+        margin-bottom: 0.5rem;
+      }
+      #buttons {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 2rem;
+      }
+      button {
+        font-size: 1.5rem;
+        padding: 0.8rem 1.5rem;
+        cursor: pointer;
+        border: none;
+        border-radius: 10px;
+        transition: background-color 0.3s, transform 0.1s;
+        background-color: #9e9e9e; /* Gray color */
+        color: white;
+      }
+      #buttons button {
+        flex-grow: 1;
+        margin: 0 0.3rem;
+      }
+      button:active {
+        transform: scale(0.98);
+      }
+      #feedback {
+        margin-top: 2rem;
+        font-weight: bold;
+        height: 1.5em;
+        font-size: 1.3rem;
+      }
+      #continue-wrapper {
+        margin-top: 2rem;
+      }
+      #continue {
+        background-color: #9c27b0;
+        color: white;
+        width: 100%;
+      }</style><script defer="defer" src="/duo-german-nouns/bundle.js"></script></head><body><div id="app"><div><div id="word"></div><div id="plural"></div><div id="translation"></div></div><div id="buttons"><button id="der">der</button> <button id="die">die</button> <button id="das">das</button></div><div><div id="feedback"></div><div id="continue-wrapper"><button id="continue">Continue</button></div></div></div><script src="bundle.js"></script></body></html>
