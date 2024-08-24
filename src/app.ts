@@ -35,9 +35,9 @@ export class App {
       this.nouns[Math.floor(Math.random() * this.nouns.length)];
     this.wordElement.textContent = this.currentNoun.word;
     this.pluralElement.textContent = `Plural: ${this.currentNoun.plural}`;
-    this.translationElement.textContent = `Translation: ${this.currentNoun.translation}`;
+    this.translationElement.textContent = `Translation: ${this.currentNoun.translation.toLowerCase()}`;
     this.feedbackElement.textContent = "";
-    this.continueButton.style.display = "none";
+    this.continueButton.style.visibility = "hidden";
     this.resetButtons();
   }
 
@@ -45,18 +45,26 @@ export class App {
     if (!this.currentNoun) return;
 
     const correct = answer === this.currentNoun.gender;
-    const button = this.getButtonForGender(answer);
+    const selectedButton = this.getButtonForGender(answer);
     const correctButton = this.getButtonForGender(this.currentNoun.gender);
 
-    button.style.backgroundColor = correct ? "green" : "red";
-    correctButton.style.backgroundColor = "green";
+    // Reset all buttons to gray first
+    this.resetButtons();
 
-    this.feedbackElement.textContent = correct
-      ? "Correct!"
-      : "Incorrect. Try again!";
-    this.continueButton.style.display = "inline-block";
+    // Always show the correct answer in green
+    correctButton.style.backgroundColor = "#4CAF50";
+
+    if (correct) {
+      // If the answer is correct, the selected button is already green
+      this.feedbackElement.textContent = "Correct!";
+    } else {
+      // If the answer is incorrect, set the selected button to red
+      selectedButton.style.backgroundColor = "#f44336";
+      this.feedbackElement.textContent = "Incorrect. Try again!";
+    }
+
+    this.continueButton.style.visibility = "visible";
   }
-
   private getButtonForGender(gender: "n" | "m" | "f"): HTMLButtonElement {
     switch (gender) {
       case "m":
@@ -70,7 +78,7 @@ export class App {
 
   private resetButtons() {
     [this.derButton, this.dieButton, this.dasButton].forEach((button) => {
-      button.style.backgroundColor = "";
+      button.style.backgroundColor = "#9e9e9e"; // Reset to gray
     });
   }
 }
