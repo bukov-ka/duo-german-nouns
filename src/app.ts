@@ -6,6 +6,8 @@ export class App {
 
   constructor(
     private wordElement: HTMLElement,
+    private pluralElement: HTMLElement,
+    private translationElement: HTMLElement,
     private derButton: HTMLButtonElement,
     private dieButton: HTMLButtonElement,
     private dasButton: HTMLButtonElement,
@@ -32,6 +34,8 @@ export class App {
     this.currentNoun =
       this.nouns[Math.floor(Math.random() * this.nouns.length)];
     this.wordElement.textContent = this.currentNoun.word;
+    this.pluralElement.textContent = `Plural: ${this.currentNoun.plural}`;
+    this.translationElement.textContent = `Translation: ${this.currentNoun.translation}`;
     this.feedbackElement.textContent = "";
     this.continueButton.style.display = "none";
     this.resetButtons();
