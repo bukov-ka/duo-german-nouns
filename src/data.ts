@@ -6,7 +6,7 @@ export interface Noun {
 
 export async function loadNouns(): Promise<Noun[]> {
   const basePath = process.env.NODE_ENV === 'production' ? '/duo-german-nouns' : '';
-  const response = await fetch(`${basePath}/german_nouns_with_gender_and_plural.json`);
+  const response = await fetch(`${basePath}/german_nouns.json`);
   const data: [string, string, string][] = await response.json();
   return data.map(([word, gender, plural]) => ({
       word,

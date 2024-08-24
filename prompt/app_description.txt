@@ -1,0 +1,61 @@
+# German Noun Gender Practice App
+
+## Overview
+This web application is designed to help German language learners practice identifying the correct gender of German nouns. It's a simple, interactive tool that runs entirely in the browser and can be hosted on GitHub Pages.
+
+## Features
+1. Random noun selection from a pre-loaded JSON file
+2. Simple user interface with large text and buttons
+3. Immediate feedback on user answers
+4. No backend required - runs entirely in the browser
+5. Hosted on GitHub Pages for easy access
+
+## Technical Specifications
+
+### Data Source
+- A JSON file (german_nouns_with_gender_and_plural.json) containing German nouns, their genders, and plural forms
+- File size: approximately 53KB
+- The entire file will be loaded at app startup
+
+### User Interface
+- Large text display for the current noun
+- Three large buttons for gender selection: 'der', 'die', 'das'
+- Color feedback: green for correct answers, red for incorrect
+- A 'Continue' button that appears after each answer
+
+### Functionality
+- Randomly selects a noun from the loaded JSON data
+- Presents the noun to the user
+- User selects the gender by clicking one of the three buttons
+- Immediate feedback is provided:
+  - Correct answer: selected button turns green
+  - Incorrect answer: selected button turns red, correct button turns green
+- 'Continue' button appears to move to the next noun
+- No score tracking or statistics
+
+### Error Handling
+- Simple check to ensure gender is 'n', 'm', or 'f'
+- Console error if an invalid gender is found
+- Skip to next word if an error occurs
+
+### Visual Elements
+- Simple color scheme
+- Basic animations for button presses and feedback (if easy to implement)
+
+## Implementation Notes
+1. Use vanilla JavaScript for simplicity and fast loading
+2. Implement responsive design for various screen sizes
+3. Ensure accessibility features are included (e.g., keyboard navigation)
+4. Optimize for performance, considering the app loads the entire JSON file
+
+## Future Enhancements (Not Implemented in Initial Version)
+- Score tracking and statistics
+- Difficulty levels or word categories
+- User progress tracking
+- Expanded dataset with more nouns
+
+## Hosting and Deployment
+- Host on GitHub Pages for free and easy deployment
+- Use version control for easy updates and maintenance
+
+This simple web application provides an effective tool for German learners to practice noun genders without the need for complex backend systems or databases.

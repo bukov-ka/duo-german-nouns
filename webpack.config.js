@@ -38,8 +38,8 @@ module.exports = (env, argv) => ({
           },
         },
         {
-          from: "public/german_nouns_with_gender_and_plural.json",
-          to: "german_nouns_with_gender_and_plural.json",
+          from: "public/german_nouns.json",
+          to: "german_nouns.json",
         },
       ],
     }),
