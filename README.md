@@ -2,6 +2,8 @@
 
 An interactive web application to help learners practice identifying the correct gender of German nouns.
 
+https://bukov-ka.github.io/duo-german-nouns/
+
 ## Description
 
 This application is designed to assist German language learners in mastering noun genders. Users are presented with a German noun and must select the correct article (der, die, or das) to match the noun's gender. The app provides immediate feedback, showing correct and incorrect answers visually.
@@ -27,7 +29,7 @@ To get the project running on your local machine, follow these steps:
 
 1. Clone the repository:
    ```
-   git clone https://github.com/your-username/german-noun-gender-quiz.git
+   git clone https://github.com/bukov-ka/german-noun-gender-quiz.git
    ```
 
 2. Navigate to the project directory:
