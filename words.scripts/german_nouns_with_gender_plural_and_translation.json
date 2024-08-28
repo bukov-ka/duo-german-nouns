@@ -3,13 +3,13 @@
         "Abend",
         "n",
         "Abende",
-        "Evening"
+        "evening"
     ],
     [
         "Abendessen",
         "n",
         "Abendessen",
-        "Dinner"
+        "dinner"
     ],
     [
         "Abfahrt",
@@ -21,19 +21,19 @@
         "Abflug",
         "m",
         "Abflüge",
-        "Departure"
+        "departure"
     ],
     [
         "Abschluss",
         "m",
         "Abschlüsse",
-        "Diploma"
+        "degree"
     ],
     [
         "Achtung",
         "f",
         "",
-        "Danger"
+        "careful, attention, watch out"
     ],
     [
         "Adresse",
@@ -45,25 +45,25 @@
         "Affe",
         "m",
         "Affen",
-        "Ape"
+        "monkey"
     ],
     [
         "Ahnung",
         "f",
         "Ahnungen",
-        "Idea"
+        "idea"
     ],
     [
         "Aktentasche",
         "f",
         "Aktentaschen",
-        "Briefcase"
+        "briefcase"
     ],
     [
         "Album",
         "n",
         "Alben",
-        "album"
+        "album, albums"
     ],
     [
         "Alkohol",
@@ -105,37 +105,37 @@
         "Angst",
         "f",
         "Ängste",
-        "Fear"
+        "fear"
     ],
     [
         "Anwalt",
         "m",
         "Anwälte",
-        "Attorney"
+        "lawyer, barrister, solicitor"
     ],
     [
         "Anwältin",
         "f",
         "Anwältinnen",
-        "Lawyer"
+        "lawyer, a lawyer"
     ],
     [
         "Anzug",
         "m",
         "Anzüge",
-        "Men's suit"
+        "suit"
     ],
     [
         "Apfel",
         "m",
         "Äpfel",
-        "Apple"
+        "apple"
     ],
     [
         "Apfelkuchen",
         "m",
         "Apfelkuchen",
-        "Apple pie"
+        "apple cake, apple pie"
     ],
     [
         "Apfelsaft",
@@ -147,19 +147,19 @@
         "Apfelschorle",
         "f",
         "Apfelschorlen",
-        "Apple spritzer"
+        "sparkling apple juice, carbonated"
     ],
     [
         "Apfelstrudel",
         "m",
         "Apfelstrudel",
-        "Apple strudel"
+        "apple strudel"
     ],
     [
         "Apotheke",
         "f",
         "Apotheken",
-        "Pharmacy"
+        "pharmacy, drugstore, chemist"
     ],
     [
         "April",
@@ -171,13 +171,13 @@
         "Arbeit",
         "f",
         "Arbeiten",
-        "Work"
+        "work, piece of work, job"
     ],
     [
         "Arbeitszimmer",
         "n",
         "Arbeitszimmer",
-        "study"
+        "home office"
     ],
     [
         "Arm",
@@ -189,37 +189,37 @@
         "Arme",
         "f",
         "",
-        "poor"
+        "arms, poor"
     ],
     [
         "Arzt",
         "m",
         "Ärzte",
-        "Physician"
+        "doctor, physician"
     ],
     [
         "Aufzug",
         "m",
         "Aufzüge",
-        "Elevator"
+        "elevator, Lift"
     ],
     [
         "Auge",
         "n",
         "Augen",
-        "Eye"
+        "eye"
     ],
     [
         "Frühling",
         "m",
         "Frühlinge",
-        "Spring"
+        "spring, springtime"
     ],
     [
         "Frühstück",
         "n",
         "Frühstücke",
-        "Breakfast"
+        "breakfast"
     ],
     [
         "August",
@@ -231,61 +231,61 @@
         "Frühling",
         "m",
         "Frühlinge",
-        "Spring"
+        "spring, springtime"
     ],
     [
         "Frühstück",
         "n",
         "Frühstücke",
-        "Breakfast"
+        "breakfast"
     ],
     [
         "Fuß",
         "m",
         "Füße",
-        "Foot"
+        "foot"
     ],
     [
         "Fußball",
         "m",
         "Fußbälle",
-        "football"
+        "soccer, football"
     ],
     [
         "Fußballspiel",
         "n",
         "Fußballspiele",
-        "Football game"
+        "soccer game"
     ],
     [
         "Fußballtraining",
         "n",
         "Fußballtrainings",
-        "Football training"
+        "soccer practice"
     ],
     [
         "Ausbildung",
         "f",
         "Ausbildungen",
-        "Training"
+        "apprenticeship"
     ],
     [
         "Führerschein",
         "m",
         "Führerscheine",
-        "Driver's license"
+        "driver's license"
     ],
     [
         "Ausflug",
         "m",
         "Ausflüge",
-        "Side trip"
+        "excursion"
     ],
     [
         "Gabel",
         "m",
         "Gabeln",
-        "Fork"
+        "fork"
     ],
     [
         "Gans",
@@ -297,79 +297,79 @@
         "Garage",
         "f",
         "Garagen",
-        "garage"
+        "garage, workshop"
     ],
     [
         "Garten",
         "m",
         "Gärten",
-        "Garden"
+        "garden, yard"
     ],
     [
         "Gast",
         "m",
         "Gasten",
-        "Guest"
+        "guest"
     ],
     [
         "Geburtsjahr",
         "n",
         "Geburtsjahre",
-        "Year of birth"
+        "birth year"
     ],
     [
         "Geburtsort",
         "m",
         "Geburtsorte",
-        "Place of birth"
+        "birthplace"
     ],
     [
         "Geburtstag",
         "m",
         "Geburtstage",
-        "Birthday"
+        "birthday"
     ],
     [
         "Geburtstagskarte",
         "f",
         "Geburtstagskarten",
-        "Birthday card"
+        "birthday card"
     ],
     [
         "Gebäude",
         "n",
         "Gebäude",
-        "Building"
+        "building"
     ],
     [
         "Geige",
         "f",
         "Geigen",
-        "violin"
+        "violin, fiddle"
     ],
     [
         "Geld",
         "n",
         "Gelder",
-        "Money"
+        "money"
     ],
     [
         "Geldautomat",
         "m",
         "Geldautomaten",
-        "ATM"
+        "ATM, cash dispenser, cashpoint"
     ],
     [
         "Geldbeutel",
         "m",
         "Geldbeutel",
-        "Wallet"
+        "wallet"
     ],
     [
         "Gemüse",
         "n",
         "Gemüse",
-        "Vegetables"
+        "vegetables, vegetable"
     ],
     [
         "Genf",
@@ -387,67 +387,67 @@
         "Gepäck",
         "n",
         "Gepäcke",
-        "Baggage"
+        "luggage"
     ],
     [
         "Geschenk",
         "n",
         "Geschenke",
-        "Gift"
+        "present, gift, presents"
     ],
     [
         "Ausrede",
         "f",
         "Ausreden",
-        "Excuse"
+        "excuse"
     ],
     [
         "Geschichte",
         "f",
         "Geschichten",
-        "Story"
+        "history"
     ],
     [
         "Geschwister",
         "n",
         "Geschwister",
-        "Siblings"
+        "siblings"
     ],
     [
         "Geschäft",
         "n",
         "Geschäfte",
-        "Business"
+        "store"
     ],
     [
         "Geschäftsfrau",
         "f",
         "Geschäftsfrauen",
-        "Businesswoman"
+        "businesswoman"
     ],
     [
         "Geschäftsmann",
         "m",
         "Geschäftsleute",
-        "Businessman"
+        "businessman"
     ],
     [
         "Gespenst",
         "n",
         "Gespenster",
-        "spook"
+        "ghost"
     ],
     [
         "Ausstellung",
         "f",
         "Ausstellungen",
-        "Exhibition"
+        "exhibit"
     ],
     [
         "Gesundheit",
         "f",
         "",
-        "Health"
+        "health"
     ],
     [
         "Giraffe",
@@ -459,7 +459,7 @@
         "Ausweis",
         "m",
         "Ausweise",
-        "ID"
+        "ID card, ID, identification card"
     ],
     [
         "Gitarre",
@@ -471,25 +471,25 @@
         "Glas",
         "n",
         "Glasen",
-        "Glass"
+        "glass, jar"
     ],
     [
         "Gleis",
         "n",
         "Gleise",
-        "Track"
+        "track, platform"
     ],
     [
         "Glück",
         "m",
         "",
-        "Luck"
+        "luck"
     ],
     [
         "Glühwein",
         "m",
         "Glühweine",
-        "Mulled wine"
+        "mulled wine"
     ],
     [
         "Golf",
@@ -501,7 +501,7 @@
         "Auto",
         "n",
         "Autos",
-        "car"
+        "car, auto, automobile"
     ],
     [
         "Gras",
@@ -513,7 +513,7 @@
         "Grillparty",
         "f",
         "Grillpartys",
-        "Grill party"
+        "barbecue"
     ],
     [
         "Großbritannien",
@@ -525,19 +525,19 @@
         "Großmutter",
         "f",
         "Großmütter",
-        "grandmother"
+        "grandmother, grandma, nan"
     ],
     [
         "Großvater",
         "m",
         "Großväter",
-        "grandfather"
+        "grandfather, granddad, grandad"
     ],
     [
         "Größe",
         "f",
         "Größen",
-        "Size"
+        "size"
     ],
     [
         "Baby",
@@ -549,31 +549,31 @@
         "Gummibärchen",
         "n",
         "Gummibärchen",
-        "Gummy bear"
+        "gummy bears"
     ],
     [
         "Gurke",
         "f",
         "Gurken",
-        "Cucumber"
+        "cucumber"
     ],
     [
         "Gurkensalat",
         "m",
         "Gurkensalate",
-        "Cucumber"
+        "cucumber salad"
     ],
     [
         "Gutschein",
         "m",
         "Gutscheine",
-        "Coupon"
+        "gift certificate"
     ],
     [
         "Gürtel",
         "m",
         "Gürtel",
-        "Belt"
+        "belt"
     ],
     [
         "Handball",
@@ -585,13 +585,13 @@
         "Handtuch",
         "n",
         "Handtücher",
-        "Hand towel"
+        "hand towel"
     ],
     [
         "Handy",
         "n",
         "Handys",
-        "Cell phone"
+        "cell phone, mobile phone, mobile"
     ],
     [
         "Badeanzug",
@@ -603,97 +603,97 @@
         "Handynummer",
         "f",
         "Handynummern",
-        "Cell phone number"
+        "cell phone number"
     ],
     [
         "Hauptfach",
         "n",
         "Hauptfächer",
-        "Main compartment"
+        "major"
     ],
     [
         "Hauptstadt",
         "f",
         "Hauptstädte",
-        "Capital city"
+        "capital"
     ],
     [
         "Haus",
         "n",
         "Häuser",
-        "House"
+        "house, home"
     ],
     [
         "Hausarbeit",
         "f",
         "Hausarbeiten",
-        "Homework"
+        "chores"
     ],
     [
         "Hausnummer",
         "f",
         "Hausnummern",
-        "House number"
+        "house number"
     ],
     [
         "Badewanne",
         "f",
         "Badewannen",
-        "Bathtub"
+        "bathtub"
     ],
     [
         "Hemd",
         "n",
         "Hemden",
-        "Shirt"
+        "shirt"
     ],
     [
         "Herbst",
         "m",
         "Herbste",
-        "Autumn"
+        "fall, autumn"
     ],
     [
         "Herd",
         "m",
         "Herde",
-        "Stove"
+        "stove"
     ],
     [
         "Herr",
         "m",
         "Herren",
-        "Mister"
+        "Mr., gentleman"
     ],
     [
         "Badezimmer",
         "n",
         "Badezimmer",
-        "bathroom"
+        "bathroom, restroom, washroom"
     ],
     [
         "Hexe",
         "f",
         "Hexen",
-        "Witch"
+        "witch"
     ],
     [
         "Hilfe",
         "f",
         "Hilfen",
-        "Help"
+        "help"
     ],
     [
         "Bahnhof",
         "m",
         "Bahnhöfe",
-        "Railroad station"
+        "train station, railway station, rail"
     ],
     [
         "Himmel",
         "m",
         "Himmel",
-        "Heaven"
+        "sky"
     ],
     [
         "Hobby",
@@ -705,7 +705,7 @@
         "Hochzeit",
         "f",
         "Hochzeiten",
-        "Wedding"
+        "wedding"
     ],
     [
         "Hockey",
@@ -717,7 +717,7 @@
         "Honig",
         "m",
         "Honige",
-        "Honey"
+        "honey"
     ],
     [
         "Balkon",
@@ -729,13 +729,13 @@
         "Horrorfilm",
         "m",
         "Horrorfilme",
-        "Horror film"
+        "horror movie, horror film"
     ],
     [
         "Hose",
         "f",
         "Hosen",
-        "Pants"
+        "pants"
     ],
     [
         "Hotel",
@@ -753,13 +753,13 @@
         "Hund",
         "m",
         "Hunde",
-        "Dog"
+        "dog"
     ],
     [
         "Hunger",
         "m",
         "",
-        "hunger"
+        "hunger, hungry"
     ],
     [
         "Banane",
@@ -789,7 +789,7 @@
         "ICE",
         "m",
         "ICE",
-        "ICE"
+        "intercity express, ICE"
     ],
     [
         "Band",
@@ -801,7 +801,7 @@
         "Bank",
         "f",
         "Banken",
-        "bank"
+        "bench, bank"
     ],
     [
         "Indien",
@@ -813,13 +813,13 @@
         "Informatik",
         "f",
         "",
-        "Computer science"
+        "computer science"
     ],
     [
         "Bankkauffrau",
         "f",
         "Bankkauffrauen",
-        "Bank clerk"
+        "banker, a banker"
     ],
     [
         "Instrument",
@@ -831,7 +831,7 @@
         "Internet",
         "n",
         "",
-        "Internet"
+        "internet"
     ],
     [
         "Island",
@@ -843,19 +843,19 @@
         "Jacke",
         "f",
         "Jacken",
-        "Jacket"
+        "jacket"
     ],
     [
         "Jahr",
         "n",
         "Jahre",
-        "Year"
+        "year"
     ],
     [
         "Bar",
         "n",
         "Bars",
-        "Bear"
+        "bar"
     ],
     [
         "Jahrestag",
@@ -885,7 +885,7 @@
         "Jeans",
         "f",
         "Jeans",
-        "jeans"
+        "jeans, pair of jeans"
     ],
     [
         "Job",
@@ -897,7 +897,7 @@
         "Joghurt",
         "m",
         "Joghurts",
-        "yogurt"
+        "yogurt, yoghurt"
     ],
     [
         "Bargeld",
@@ -909,13 +909,13 @@
         "Juli",
         "m",
         "Julis",
-        "July"
+        "fo"
     ],
     [
         "Joghurt",
         "m",
         "Joghurts",
-        "yogurt"
+        "yogurt, yoghurt"
     ],
     [
         "Juli",
@@ -927,7 +927,7 @@
         "Junge",
         "m",
         "Jungen",
-        "Boy"
+        "boy"
     ],
     [
         "Juni",
@@ -939,19 +939,19 @@
         "Kaffee",
         "n",
         "Kaffees",
-        "Coffee"
+        "coffee"
     ],
     [
         "Kaffeemaschine",
         "f",
         "Kaffeemaschinen",
-        "Coffee machine"
+        "coffee machine"
     ],
     [
         "Kaffeetisch",
         "m",
         "Kaffeetische",
-        "Coffee table"
+        "coffee table"
     ],
     [
         "Kamera",
@@ -969,7 +969,7 @@
         "Kanadier",
         "m",
         "Kanadier",
-        "Canadian"
+        "Canadians, Canadian"
     ],
     [
         "Kanadierin",
@@ -993,13 +993,13 @@
         "Kantine",
         "f",
         "Kantinen",
-        "canteen"
+        "cafeteria"
     ],
     [
         "Kanzlerin",
         "f",
         "Kanzlerinnen",
-        "Chancellor"
+        "chancellor, the chancellor, a"
     ],
     [
         "Karotte",
@@ -1011,7 +1011,7 @@
         "Karte",
         "f",
         "Karten",
-        "Map"
+        "ticket"
     ],
     [
         "Basketball",
@@ -1029,199 +1029,199 @@
         "Kasse",
         "f",
         "Kassen",
-        "Checkout"
+        "cash register"
     ],
     [
         "Kassenzettel",
         "m",
         "Kassenzettel",
-        "Cashlet"
+        "receipt"
     ],
     [
         "Katze",
         "f",
         "Katzen",
-        "Cat"
+        "cat"
     ],
     [
         "Kaufhaus",
         "n",
         "Kaufhäuser",
-        "Department store"
+        "department store, store"
     ],
     [
         "Keller",
         "m",
         "Keller",
-        "cellar"
+        "basement"
     ],
     [
         "Kellner",
         "m",
         "Kellner",
-        "Waiter"
+        "waiter"
     ],
     [
         "Kellnerin",
         "f",
         "Kellnerinnen",
-        "waitress"
+        "waitress, server"
     ],
     [
         "Kette",
         "f",
         "Ketten",
-        "Chain"
+        "necklace"
     ],
     [
         "Kilo",
         "n",
         "Kilo",
-        "kilo"
+        "kilos of, kilo of, kilos"
     ],
     [
         "Kilometer",
         "m",
         "Kilometer",
-        "Kilometer"
+        "kilometers, kilometer"
     ],
     [
         "Kind",
         "n",
         "Kinder",
-        "child"
+        "child, kid"
     ],
     [
         "Kinderbuch",
         "n",
         "Kinderbücher",
-        "Children's book"
+        "children's book"
     ],
     [
         "Kindergarten",
         "m",
         "Kindergärten",
-        "Kindergarten"
+        "kindergarten"
     ],
     [
         "Kinderzimmer",
         "n",
         "Kinderzimmer",
-        "nursery"
+        "kids' room"
     ],
     [
         "Kino",
         "n",
         "Kinos",
-        "cinema"
+        "movie theater, cinema, movie theatre"
     ],
     [
         "Kiosk",
         "m",
         "Kioske",
-        "kiosk"
+        "kiosk, corner store, newsstand"
     ],
     [
         "Kirche",
         "f",
         "Kirchen",
-        "Church"
+        "church, kirk"
     ],
     [
         "Klasse",
         "f",
         "Klassen",
-        "Class"
+        "class, grade"
     ],
     [
         "Klavier",
         "n",
         "Klaviere",
-        "Piano"
+        "piano"
     ],
     [
         "Kleid",
         "n",
         "Kleider",
-        "Dress"
+        "dress"
     ],
     [
         "Kleidung",
         "f",
         "Kleidungen",
-        "Clothing"
+        "clothes"
     ],
     [
         "Kleingeld",
         "n",
         "",
-        "Change"
+        "change"
     ],
     [
         "Kleinkind",
         "n",
         "Kleinkinder",
-        "Toddler"
+        "toddler"
     ],
     [
         "Bauer",
         "n",
         "Bauer",
-        "Farmer"
+        "farmer"
     ],
     [
         "Knoblauch",
         "m",
         "",
-        "Garlic"
+        "garlic"
     ],
     [
         "Knödel",
         "m",
         "Knödel",
-        "Dumpling"
+        "dumplings"
     ],
     [
         "Koch",
         "m",
         "Köche",
-        "Cook"
+        "cook"
     ],
     [
         "Kochen",
         "n",
         "",
-        "Cook"
+        "cooking, are cooking, cook"
     ],
     [
         "Koffer",
         "m",
         "Koffer",
-        "Suitcase"
+        "suitcase, bag"
     ],
     [
         "Kollege",
         "m",
         "Kollegen",
-        "Colleague"
+        "colleague"
     ],
     [
         "Bauernhof",
         "m",
         "Bauernhöfe",
-        "Farm yard"
+        "farm"
     ],
     [
         "Kollegin",
         "f",
         "Kolleginnen",
-        "Colleague"
+        "colleague, coworker"
     ],
     [
         "Kommode",
         "f",
         "Kommoden",
-        "Dresser"
+        "dresser"
     ],
     [
         "Komödie",
@@ -1233,25 +1233,25 @@
         "Baum",
         "m",
         "Bäume",
-        "Tree"
+        "tree"
     ],
     [
         "Konditorei",
         "f",
         "Konditoreien",
-        "Pastry shop"
+        "pastry shop"
     ],
     [
         "Konto",
         "n",
         "Konten",
-        "Account"
+        "account"
     ],
     [
         "Konzert",
         "n",
         "Konzerte",
-        "concert"
+        "concert, concerto, show"
     ],
     [
         "Kopfhörer",
@@ -1263,13 +1263,13 @@
         "Kopfkissen",
         "n",
         "Kopfkissen",
-        "Pillow"
+        "pillow"
     ],
     [
         "Beamter",
         "m",
         "",
-        "Civil servant"
+        "civil servant, public official, official"
     ],
     [
         "Krankenhaus",
@@ -1281,97 +1281,97 @@
         "Krawatte",
         "f",
         "Krawatten",
-        "Necktie"
+        "tie"
     ],
     [
         "Kreditkarte",
         "f",
         "Kreditkarten",
-        "Credit card"
+        "credit card"
     ],
     [
         "Kreuzung",
         "f",
         "Kreuzungen",
-        "Crossing"
+        "intersection"
     ],
     [
         "Beamtin",
         "f",
         "Beamtinnen",
-        "Civil servant"
+        "civil servant, public official, official"
     ],
     [
         "Kuchen",
         "m",
         "Kuchen",
-        "Cake"
+        "cake"
     ],
     [
         "Kugelschreiber",
         "m",
         "Kugelschreiber",
-        "Ballpoint pen"
+        "pen, biro, ballpoint pen"
     ],
     [
         "Kunst",
         "f",
         "Künste",
-        "Art"
+        "art"
     ],
     [
         "Kunstmuseum",
         "n",
         "Kunstmuseen",
-        "Art museum"
+        "art museum"
     ],
     [
         "Käse",
         "m",
         "Käse",
-        "Cheese"
+        "cheese"
     ],
     [
         "Käsebrot",
         "n",
         "Käsebrote",
-        "Cheese bread"
+        "cheese sandwich"
     ],
     [
         "Köchin",
         "f",
         "Köchinnen",
-        "cook"
+        "a chef, a cook, cook"
     ],
     [
         "Küche",
         "f",
         "Küchen",
-        "Kitchen"
+        "kitchen"
     ],
     [
         "Kühlschrank",
         "m",
         "Kühlschränke",
-        "Refrigerator"
+        "refrigerator, fridge, fridge freezer"
     ],
     [
         "Künstler",
         "m",
         "Künstler",
-        "artist"
+        "an artist, artists’, performer"
     ],
     [
         "Becher",
         "m",
         "Becher",
-        "Mug"
+        "mug"
     ],
     [
         "Lachs",
         "m",
         "Lachstöne",
-        "Salmon"
+        "salmon"
     ],
     [
         "Ladegerät",
@@ -1383,7 +1383,7 @@
         "Lampe",
         "m",
         "Lampen",
-        "lamp"
+        "lamp, light"
     ],
     [
         "Land",
@@ -1401,7 +1401,7 @@
         "Landschaft",
         "f",
         "Landschaften",
-        "Landscape"
+        "landscape"
     ],
     [
         "Laptop",
@@ -1413,19 +1413,19 @@
         "Lebenslauf",
         "m",
         "Lebensläufe",
-        "CV"
+        "resume"
     ],
     [
         "Lebensmittel",
         "n",
         "Lebensmittel",
-        "Groceries"
+        "groceries"
     ],
     [
         "Lebkuchen",
         "m",
         "Lebkuchen",
-        "Gingerbread"
+        "= gingerbread"
     ],
     [
         "Leder",
@@ -1437,49 +1437,49 @@
         "Lehrer",
         "m",
         "Lehrer",
-        "Teacher"
+        "teacher, instructor, schoolteacher"
     ],
     [
         "Lehrerin",
         "f",
         "Lehrerinnen",
-        "Teacher"
+        "teacher, a teacher"
     ],
     [
         "Lesen",
         "n",
         "",
-        "To read"
+        "reading, read"
     ],
     [
         "Licht",
         "m",
         "Lichter",
-        "Light"
+        "light"
     ],
     [
         "Lieblingsessen",
         "n",
         "Lieblingsessen",
-        "Favorite food"
+        "favorite food, favourite food"
     ],
     [
         "Lieblingslied",
         "n",
         "Lieblingslieder",
-        "Favorite song"
+        "favorite song"
     ],
     [
         "Lieblingsrestaurant",
         "n",
         "Lieblingsrestaurants",
-        "Favorite restaurant"
+        "favorite restaurant"
     ],
     [
         "Lieblingstier",
         "n",
         "Lieblingstiere",
-        "Favorite animal"
+        "favorite animal"
     ],
     [
         "Lied",
@@ -1491,13 +1491,13 @@
         "Lieferservice",
         "m",
         "Lieferservices",
-        "Delivery service"
+        "delivery service"
     ],
     [
         "Lila",
         "n",
         "Lila",
-        "Purple"
+        "purple, lilac"
     ],
     [
         "Limonade",
@@ -1515,25 +1515,25 @@
         "Liter",
         "m",
         "Liter",
-        "liter"
+        "liters, liter, liters of"
     ],
     [
         "Lust",
         "f",
         "Lüste",
-        "Desire"
+        "desire, in the mood"
     ],
     [
         "Löwe",
         "m",
         "Löwen",
-        "Lion"
+        "lion"
     ],
     [
         "Löwen",
         "n",
         "",
-        "Lion"
+        "lions, lion"
     ],
     [
         "Mai",
@@ -1551,7 +1551,7 @@
         "Mama",
         "f",
         "Mamas",
-        "mama"
+        "mom, to Mom, mom's"
     ],
     [
         "Mango",
@@ -1563,13 +1563,13 @@
         "Mann",
         "m",
         "Männer",
-        "Man"
+        "husband, man, guy"
     ],
     [
         "Mantel",
         "m",
         "Mäntel",
-        "Coat"
+        "coat"
     ],
     [
         "Marathon",
@@ -1581,13 +1581,13 @@
         "Markt",
         "m",
         "Märkte",
-        "market"
+        "market, marketplace"
     ],
     [
         "Marktplatz",
         "m",
         "Marktplätze",
-        "Marketplace"
+        "marketplace, market"
     ],
     [
         "Marmelade",
@@ -1599,13 +1599,13 @@
         "Benzin",
         "n",
         "Benzine",
-        "petrol"
+        "gas"
     ],
     [
         "Maschine",
         "f",
         "Maschinen",
-        "machine"
+        "machine, engine, ships"
     ],
     [
         "Mathematik",
@@ -1617,13 +1617,13 @@
         "Maus",
         "f",
         "Mäuse",
-        "Mouse"
+        "mouse"
     ],
     [
         "Mayo",
         "f",
         "Mayos",
-        "Mayo"
+        "mayo, mayonnaise"
     ],
     [
         "Medizin",
@@ -1641,31 +1641,31 @@
         "Mehrfamilienhaus",
         "n",
         "Mehrfamilienhäuser",
-        "Apartment building"
+        "apartment building, multi-family"
     ],
     [
         "Meister",
         "m",
         "Meister",
-        "Master"
+        "master, foreman"
     ],
     [
         "Mensa",
         "f",
         "Mensen",
-        "Cafeteria"
+        "student cafeteria"
     ],
     [
         "Messer",
         "m",
         "Messer",
-        "Knife"
+        "knife"
     ],
     [
         "Meter",
         "m",
         "Meter",
-        "meter"
+        "meters, meter"
     ],
     [
         "Metzger",
@@ -1677,31 +1677,31 @@
         "Metzgerei",
         "f",
         "Metzgereien",
-        "Butcher"
+        "butcher shop"
     ],
     [
         "Miete",
         "f",
         "Mieten",
-        "Rent"
+        "rent"
     ],
     [
         "Mietwagen",
         "m",
         "Mietwagen",
-        "Rental car"
+        "rental car"
     ],
     [
         "Mikrowelle",
         "f",
         "Mikrowellen",
-        "microwave"
+        "microwave, microwave oven"
     ],
     [
         "Milch",
         "f",
         "Milche",
-        "Milk"
+        "milk"
     ],
     [
         "Million",
@@ -1713,7 +1713,7 @@
         "Bergen",
         "n",
         "",
-        "Mount"
+        "mountains"
     ],
     [
         "Mineralwasser",
@@ -1725,31 +1725,31 @@
         "Mitbewohner",
         "m",
         "Mitbewohner",
-        "Roommate"
+        "roommate, roomie, flatmate"
     ],
     [
         "Mitbewohnerin",
         "f",
         "Mitbewohnerinnen",
-        "flatmate"
+        "roommate, roommate's"
     ],
     [
         "Beruf",
         "m",
         "Berufe",
-        "Profession"
+        "profession, job, occupation"
     ],
     [
         "Mittag",
         "n",
         "Mittage",
-        "Midday"
+        "noon"
     ],
     [
         "Mittagessen",
         "n",
         "Mittagessen",
-        "Lunch"
+        "lunch"
     ],
     [
         "Mitternacht",
@@ -1773,7 +1773,7 @@
         "Monat",
         "m",
         "Monate",
-        "Month"
+        "month"
     ],
     [
         "Mond",
@@ -1791,7 +1791,7 @@
         "Morgen",
         "n",
         "Morgen",
-        "Morning"
+        "morning"
     ],
     [
         "Moschee",
@@ -1803,13 +1803,13 @@
         "Motorrad",
         "n",
         "Motorräder",
-        "motorcycle"
+        "motorcycle, motorbike, bike"
     ],
     [
         "Motorroller",
         "m",
         "Motorroller",
-        "Scooter"
+        "scooter"
     ],
     [
         "Museum",
@@ -1821,31 +1821,31 @@
         "Musik",
         "f",
         "Musiken",
-        "Music"
+        "music"
     ],
     [
         "Musiker",
         "m",
         "Musiker",
-        "musician"
+        "musician, musicians, a musician"
     ],
     [
         "Mutter",
         "m",
         "Muttern",
-        "Mother"
+        "mother"
     ],
     [
         "Muttersprache",
         "f",
         "Muttersprachen",
-        "Mother tongue"
+        "mother tongue, native language, first"
     ],
     [
         "Mädchen",
         "n",
         "Mädchen",
-        "Girl"
+        "girl"
     ],
     [
         "März",
@@ -1857,19 +1857,19 @@
         "Möbel",
         "n",
         "Möbel",
-        "Furniture"
+        "furniture"
     ],
     [
         "Möbelhaus",
         "n",
         "Möbelhäuser",
-        "Furniture store"
+        "furniture store"
     ],
     [
         "Mülleimer",
         "m",
         "Mülleimer",
-        "Trash can"
+        "trash can"
     ],
     [
         "München",
@@ -1881,55 +1881,55 @@
         "Müsli",
         "f",
         "Müslis",
-        "Muesli"
+        "muesli, cereal, granola"
     ],
     [
         "Nachbar",
         "m",
         "Nachbarn",
-        "Neighbor"
+        "neighbor, neighbour"
     ],
     [
         "Nachbarin",
         "f",
         "Nachbarinnen",
-        "neighbor"
+        "neighbor, neighbour"
     ],
     [
         "Nachmittag",
         "m",
         "Nachmittage",
-        "Afternoon"
+        "afternoon"
     ],
     [
         "Nachbarin",
         "f",
         "Nachbarinnen",
-        "neighbor"
+        "neighbor, neighbour"
     ],
     [
         "Nachmittag",
         "m",
         "Nachmittage",
-        "Afternoon"
+        "afternoon"
     ],
     [
         "Nachname",
         "m",
         "Nachnamen",
-        "Last name"
+        "last name"
     ],
     [
         "Nacht",
         "f",
         "Nächte",
-        "Night"
+        "night"
     ],
     [
         "Nachtisch",
         "m",
         "Nachtische",
-        "Dessert"
+        "dessert, sweet"
     ],
     [
         "Nacken",
@@ -1947,25 +1947,25 @@
         "Namen",
         "m",
         "Namen",
-        "Names"
+        "name, names"
     ],
     [
         "Natur",
         "f",
         "Naturen",
-        "Nature"
+        "nature"
     ],
     [
         "Neffe",
         "f",
         "Neffen",
-        "Nephew"
+        "nephew"
     ],
     [
         "Neujahr",
         "n",
         "",
-        "New Year"
+        "New Year's Day"
     ],
     [
         "Neuseeland",
@@ -1977,7 +1977,7 @@
         "Nichte",
         "f",
         "Nichten",
-        "Niece"
+        "niece"
     ],
     [
         "Nickerchen",
@@ -1989,7 +1989,7 @@
         "Notizbuch",
         "n",
         "Notizbücher",
-        "Notebook"
+        "notebook"
     ],
     [
         "November",
@@ -2007,13 +2007,13 @@
         "Obst",
         "n",
         "",
-        "Fruit"
+        "fruit"
     ],
     [
         "Obstsalat",
         "m",
         "Obstsalate",
-        "Fruit salad"
+        "fruit salad"
     ],
     [
         "Oktober",
@@ -2031,25 +2031,25 @@
         "Oma",
         "f",
         "Omas",
-        "granny"
+        "grandma, grandmother, nan"
     ],
     [
         "Onkel",
         "m",
         "Onkel",
-        "Uncle"
+        "uncle"
     ],
     [
         "Sitz",
         "m",
         "Sitze",
-        "seat"
+        "seat, place, chair"
     ],
     [
         "Opa",
         "m",
         "Opas",
-        "Grandpa"
+        "grandpa, grandfather, granddad"
     ],
     [
         "Oper",
@@ -2061,7 +2061,7 @@
         "Orange",
         "n",
         "Orange",
-        "Orange"
+        "orange"
     ],
     [
         "Orangensaft",
@@ -2073,7 +2073,7 @@
         "Packung",
         "f",
         "Packungen",
-        "pack"
+        "package, pack, packet of"
     ],
     [
         "Paket",
@@ -2091,13 +2091,13 @@
         "Papa",
         "f",
         "Papas",
-        "papa"
+        "dad, to Dad, Dad"
     ],
     [
         "Papas",
         "m",
         "Papas",
-        "Dad"
+        "dad's, dads"
     ],
     [
         "Park",
@@ -2109,25 +2109,25 @@
         "Parkplatz",
         "m",
         "Parkplätze",
-        "parking"
+        "parking space"
     ],
     [
         "Partner",
         "m",
         "Partner",
-        "partner"
+        "partner, partners, partner's"
     ],
     [
         "Sitzplatz",
         "m",
         "Sitzplätze",
-        "Seat"
+        "seat"
     ],
     [
         "Partnerin",
         "f",
         "Partnerinnen",
-        "Partner"
+        "partner"
     ],
     [
         "Party",
@@ -2145,13 +2145,13 @@
         "Passfoto",
         "n",
         "Passfotos",
-        "Passport photo"
+        "passport photo"
     ],
     [
         "Pause",
         "f",
         "Pausen",
-        "pause"
+        "break"
     ],
     [
         "Person",
@@ -2169,7 +2169,7 @@
         "Pferd",
         "n",
         "Pferde",
-        "Horse"
+        "horse"
     ],
     [
         "Pflanze",
@@ -2193,19 +2193,19 @@
         "Platz",
         "m",
         "Plätze",
-        "Place"
+        "space"
     ],
     [
         "Politik",
         "f",
         "Politiken",
-        "policy"
+        "politics"
     ],
     [
         "Polizist",
         "m",
         "Polizisten",
-        "policeman"
+        "police officer, policeman, a police"
     ],
     [
         "Polnisch",
@@ -2223,7 +2223,7 @@
         "Popcorn",
         "n",
         "Popcorns",
-        "Popcorn"
+        "popcorn"
     ],
     [
         "Popmusik",
@@ -2235,13 +2235,13 @@
         "Post",
         "m",
         "Posts",
-        "post"
+        "post office"
     ],
     [
         "Poster",
         "m",
         "Poster",
-        "Poster"
+        "poster, posters"
     ],
     [
         "Postkarte",
@@ -2253,25 +2253,25 @@
         "Postleitzahl",
         "f",
         "Postleitzahlen",
-        "Postal code"
+        "zip code"
     ],
     [
         "Praktikum",
         "n",
         "Praktika",
-        "Internship"
+        "internship, traineeship, practicum"
     ],
     [
         "Preis",
         "m",
         "Preise",
-        "Price"
+        "price, prize"
     ],
     [
         "Ski",
         "m",
         "Ski",
-        "ski"
+        "skis, Ski"
     ],
     [
         "Problem",
@@ -2283,19 +2283,19 @@
         "Professor",
         "m",
         "Professoren",
-        "professor"
+        "professor, a professor"
     ],
     [
         "Professorin",
         "f",
         "Professorinnen",
-        "Professor"
+        "professor, a professor"
     ],
     [
         "Prüfung",
         "f",
         "Prüfungen",
-        "Test"
+        "exam"
     ],
     [
         "Psychologie",
@@ -2307,13 +2307,13 @@
         "Pullover",
         "m",
         "Pullover",
-        "Sweater"
+        "sweater, jumper"
     ],
     [
         "Smartphone",
         "n",
         "Smartphones",
-        "Smartphone"
+        "smartphone"
     ],
     [
         "Puzzle",
@@ -2325,7 +2325,7 @@
         "Quadratmeter",
         "m",
         "Quadratmeter",
-        "Square meter"
+        "square meters"
     ],
     [
         "Radio",
@@ -2337,37 +2337,37 @@
         "Radtour",
         "f",
         "Radtouren",
-        "Bike tour"
+        "bike ride"
     ],
     [
         "Ratschlag",
         "m",
         "Ratschläge",
-        "Advice"
+        "piece of advice"
     ],
     [
         "Rechnung",
         "f",
         "Rechnungen",
-        "The invoice"
+        "check"
     ],
     [
         "Regal",
         "n",
         "Regale",
-        "shelf"
+        "shelf, rack, shelving"
     ],
     [
         "Socken",
         "m",
         "Socken",
-        "Sock"
+        "socks"
     ],
     [
         "Regen",
         "m",
         "Regen",
-        "Rain"
+        "rain"
     ],
     [
         "Regenschirm",
@@ -2379,13 +2379,13 @@
         "Reifen",
         "m",
         "Reifen",
-        "Tires"
+        "tire, tires"
     ],
     [
         "Reifenpanne",
         "f",
         "Reifenpannen",
-        "Rifle"
+        "flat tire"
     ],
     [
         "Reis",
@@ -2397,7 +2397,7 @@
         "Reise",
         "f",
         "Reisen",
-        "Trip"
+        "trip"
     ],
     [
         "Sofa",
@@ -2409,7 +2409,7 @@
         "DV",
         "m",
         "DVs",
-        "DV"
+        "av a"
     ],
     [
         "Reis",
@@ -2421,7 +2421,7 @@
         "Reise",
         "f",
         "Reisen",
-        "Trip"
+        "trip"
     ],
     [
         "Rentier",
@@ -2439,7 +2439,7 @@
         "Rezeption",
         "f",
         "Rezeptionen",
-        "reception"
+        "reception desk, reception"
     ],
     [
         "Riesenrad",
@@ -2463,7 +2463,7 @@
         "Rockkonzert",
         "n",
         "Rockkonzerte",
-        "Rock concert"
+        "rock concert"
     ],
     [
         "Rotwein",
@@ -2475,13 +2475,13 @@
         "Sohn",
         "m",
         "Söhne",
-        "Son"
+        "son"
     ],
     [
         "Rucksack",
         "m",
         "Rucksäcke",
-        "Backpack"
+        "backpack, rucksack, knapsack"
     ],
     [
         "Rugby",
@@ -2493,7 +2493,7 @@
         "Ruhe",
         "f",
         "",
-        "Quiet"
+        "peace"
     ],
     [
         "Russisch",
@@ -2511,19 +2511,19 @@
         "Rücken",
         "m",
         "Rücken",
-        "Back"
+        "back"
     ],
     [
         "Saft",
         "m",
         "Säfte",
-        "Juice"
+        "juice"
     ],
     [
         "Sakko",
         "n",
         "Sakkos",
-        "jacket"
+        "suit jacket, jacket, sport coat"
     ],
     [
         "Salami",
@@ -2535,13 +2535,13 @@
         "Salat",
         "m",
         "Salate",
-        "lettuce"
+        "salad"
     ],
     [
         "Salz",
         "n",
         "Salze",
-        "Salt"
+        "salt"
     ],
     [
         "Samstag",
@@ -2577,163 +2577,163 @@
         "Schach",
         "m",
         "Schachs",
-        "Chess"
+        "chess"
     ],
     [
         "Schal",
         "m",
         "Schals",
-        "Scarf"
+        "scarf, shawl"
     ],
     [
         "Schatz",
         "m",
         "Schätze",
-        "Treasure"
+        "treasure, sweetheart, sweetie"
     ],
     [
         "Schauspieler",
         "m",
         "Schauspieler",
-        "Actor"
+        "actor"
     ],
     [
         "Schauspielerin",
         "f",
         "Schauspielerinnen",
-        "actress"
+        "actress, actor"
     ],
     [
         "Schildkröte",
         "f",
         "Schildkröten",
-        "tortoise"
+        "turtle, tortoise"
     ],
     [
         "Sommer",
         "m",
         "Sommer",
-        "Summer"
+        "summer"
     ],
     [
         "Schinken",
         "m",
         "Schinken",
-        "Ham"
+        "ham"
     ],
     [
         "Schlafzimmer",
         "n",
         "Schlafzimmer",
-        "Bedroom"
+        "bedroom"
     ],
     [
         "Schlagzeug",
         "n",
         "Schlagzeuge",
-        "Drums"
+        "drums"
     ],
     [
         "Schlange",
         "f",
         "Schlangen",
-        "Snake"
+        "snake"
     ],
     [
         "Schlitten",
         "m",
         "Schlitten",
-        "Sleds"
+        "sled, sleigh, sledge"
     ],
     [
         "Schloss",
         "n",
         "Schlösser",
-        "Lock"
+        "castle, palace, lock"
     ],
     [
         "Sommerjob",
         "m",
         "Sommerjobs",
-        "Summer job"
+        "summer job"
     ],
     [
         "Schluss",
         "m",
         "Schlüsse",
-        "Ending"
+        "end, conclusion, ending"
     ],
     [
         "Schlüssel",
         "m",
         "Schlüssel",
-        "Key"
+        "key"
     ],
     [
         "Schnecke",
         "f",
         "Schnecken",
-        "Snail"
+        "Snail, slug"
     ],
     [
         "Schnee",
         "m",
         "",
-        "Snow"
+        "snow"
     ],
     [
         "Schneeball",
         "m",
         "Schneebälle",
-        "Snowball"
+        "snowballs"
     ],
     [
         "Schnitzel",
         "n",
         "Schnitzel",
-        "Schnitzel"
+        "schnitzel, schnitzels"
     ],
     [
         "Schnuller",
         "m",
         "Schnuller",
-        "dummy"
+        "pacifier, dummy"
     ],
     [
         "Schokolade",
         "f",
         "Schokoladen",
-        "Chocolate"
+        "chocolate"
     ],
     [
         "Schrank",
         "m",
         "Schränke",
-        "Wardrobe"
+        "closet, cabinet, cupboard"
     ],
     [
         "Sonne",
         "f",
         "Sonnen",
-        "Sun"
+        "sun"
     ],
     [
         "Schreibtisch",
         "m",
         "Schreibtische",
-        "Desk"
+        "desk"
     ],
     [
         "Schublade",
         "f",
         "Schubladen",
-        "Drawer"
+        "drawer"
     ],
     [
         "Schule",
         "f",
         "Schulen",
-        "School"
+        "school"
     ],
     [
         "Schwarzwald",
@@ -2775,37 +2775,37 @@
         "Schwester",
         "f",
         "Schwestern",
-        "Sister"
+        "sister"
     ],
     [
         "Schwimmbad",
         "n",
         "Schwimmbäder",
-        "Swimming pool"
+        "swimming pool"
     ],
     [
         "Schwimmen",
         "n",
         "",
-        "To swim"
+        "swimming, swim, float"
     ],
     [
         "Sonnencreme",
         "f",
         "Sonnencremes",
-        "Sunscreen"
+        "sunscreen, suntan lotion, sun cream"
     ],
     [
         "Schüler",
         "m",
         "Schüler",
-        "Pupils"
+        "students, pupil, student"
     ],
     [
         "Schürze",
         "f",
         "Schürzen",
-        "Apron"
+        "apron"
     ],
     [
         "See",
@@ -2817,7 +2817,7 @@
         "Seife",
         "f",
         "Seifen",
-        "Soap"
+        "soap"
     ],
     [
         "Sonntag",
@@ -2829,7 +2829,7 @@
         "Sekt",
         "m",
         "Sekte",
-        "Sparkling wine"
+        "champagne"
     ],
     [
         "Sekunde",
@@ -2841,19 +2841,19 @@
         "Semester",
         "n",
         "Semester",
-        "semester"
+        "semester, semesters"
     ],
     [
         "Semesterende",
         "n",
         "Semesterenden",
-        "The end of the semester"
+        "end of the semester"
     ],
     [
         "Senf",
         "m",
         "Senfe",
-        "Mustard"
+        "mustard"
     ],
     [
         "September",
@@ -2865,13 +2865,13 @@
         "Sessel",
         "m",
         "Sessel",
-        "Armchair"
+        "armchair, reclining chair, easy chair"
     ],
     [
         "Sie",
         "m",
         "Sies",
-        "She"
+        "They, It, your"
     ],
     [
         "Silvester",
@@ -2883,13 +2883,13 @@
         "Sitz",
         "m",
         "Sitze",
-        "seat"
+        "seat, place, chair"
     ],
     [
         "Sitzplatz",
         "m",
         "Sitzplätze",
-        "Seat"
+        "seat"
     ],
     [
         "Soße",
@@ -2913,37 +2913,37 @@
         "Spaziergang",
         "m",
         "Spaziergänge",
-        "Stroll"
+        "walk"
     ],
     [
         "Spaß",
         "m",
         "Späße",
-        "Fun"
+        "fun"
     ],
     [
         "Speisekarte",
         "f",
         "Speisekarten",
-        "Menu"
+        "menu"
     ],
     [
         "Speisewagen",
         "m",
         "Speisewagen",
-        "Dining car"
+        "dining car, diner car"
     ],
     [
         "Spiegel",
         "m",
         "Spiegel",
-        "Mirror"
+        "mirror"
     ],
     [
         "Spiel",
         "n",
         "Spiele",
-        "Game"
+        "game, match, play"
     ],
     [
         "Spielplatz",
@@ -2967,19 +2967,19 @@
         "Sport",
         "m",
         "Sporte",
-        "sport"
+        "sports, exercise, sport"
     ],
     [
         "Sporthalle",
         "f",
         "Sporthallen",
-        "Sports hall"
+        "rec center"
     ],
     [
         "Sportverein",
         "m",
         "Sportvereine",
-        "Sports club"
+        "sports club"
     ],
     [
         "Stadion",
@@ -2991,25 +2991,25 @@
         "Stadt",
         "f",
         "Städte",
-        "City"
+        "city, town"
     ],
     [
         "Stadtplan",
         "m",
         "Stadtpläne",
-        "map"
+        "city map"
     ],
     [
         "Stadtviertel",
         "n",
         "Stadtviertel",
-        "District"
+        "neighborhood, neighborhoods"
     ],
     [
         "Stadtzentrum",
         "n",
         "Stadtzentren",
-        "City center"
+        "city center"
     ],
     [
         "Station",
@@ -3021,7 +3021,7 @@
         "Stau",
         "m",
         "Staus",
-        "Traffic jam"
+        "traffic"
     ],
     [
         "Stern",
@@ -3033,109 +3033,109 @@
         "Stimmung",
         "f",
         "Stimmungen",
-        "Mood"
+        "atmosphere"
     ],
     [
         "Stock",
         "m",
         "Stöcke",
-        "stock"
+        "floor, cane"
     ],
     [
         "Stollen",
         "m",
         "Stollen",
-        "stollen"
+        "fruit cake"
     ],
     [
         "Stoppschild",
         "n",
         "Stoppschilder",
-        "Stop sign"
+        "stop sign"
     ],
     [
         "Strand",
         "m",
         "Strände",
-        "Beach"
+        "beach, shore"
     ],
     [
         "Straße",
         "f",
         "Straßen",
-        "Street"
+        "street, road"
     ],
     [
         "Straßenbahn",
         "f",
         "Straßenbahnen",
-        "tram"
+        "streetcar"
     ],
     [
         "Streit",
         "m",
         "Streite",
-        "Fight"
+        "fight"
     ],
     [
         "Stress",
         "m",
         "Stresse",
-        "stress"
+        "stress, stressed"
     ],
     [
         "Student",
         "m",
         "Studenten",
-        "Student"
+        "college student, university student,"
     ],
     [
         "Studentenwohnheim",
         "n",
         "Studentenwohnheime",
-        "Dormitory"
+        "student dorm"
     ],
     [
         "Studentin",
         "f",
         "Studentinnen",
-        "Student"
+        "a student, college student, student"
     ],
     [
         "Studium",
         "n",
         "Studien",
-        "Studies"
+        "studies"
     ],
     [
         "Stuhl",
         "m",
         "Stühle",
-        "Chair"
+        "chair"
     ],
     [
         "Stunde",
         "f",
         "Stunden",
-        "Hour"
+        "hour"
     ],
     [
         "Stück",
         "n",
         "Stücke",
-        "Piece"
+        "piece"
     ],
     [
         "Supermarkt",
         "m",
         "Supermärkte",
-        "supermarket"
+        "supermarket, grocery store"
     ],
     [
         "Suppe",
         "f",
         "Suppen",
-        "Soup"
+        "soup"
     ],
     [
         "Surfbrett",
@@ -3147,7 +3147,7 @@
         "Tablette",
         "f",
         "Tabletten",
-        "tablet"
+        "pill, tablet"
     ],
     [
         "Tag",
@@ -3171,25 +3171,25 @@
         "Tante",
         "f",
         "Tanten",
-        "aunt"
+        "aunt, auntie, aunty"
     ],
     [
         "Tasche",
         "f",
         "Taschen",
-        "Bag"
+        "bag"
     ],
     [
         "Taschengeld",
         "n",
         "Taschengelder",
-        "Pocket money"
+        "pocket money"
     ],
     [
         "Tasse",
         "f",
         "Tassen",
-        "cup"
+        "cup, mug"
     ],
     [
         "Taxi",
@@ -3201,13 +3201,13 @@
         "Taxifahrt",
         "f",
         "Taxifahrten",
-        "Taxi ride"
+        "taxi ride, cab ride"
     ],
     [
         "Taxistand",
         "m",
         "Taxistände",
-        "Taxi rank"
+        "taxi stand"
     ],
     [
         "Tee",
@@ -3219,7 +3219,7 @@
         "Teller",
         "m",
         "Teller",
-        "plate"
+        "plates, plate"
     ],
     [
         "Tennis",
@@ -3231,13 +3231,13 @@
         "Teppich",
         "m",
         "Teppiche",
-        "Carpet"
+        "carpet, rug"
     ],
     [
         "Termin",
         "m",
         "Termine",
-        "Appointment"
+        "appointment, date, deadline"
     ],
     [
         "Theater",
@@ -3255,79 +3255,79 @@
         "Tierärztin",
         "f",
         "Tierärztinnen",
-        "Veterinarian"
+        "vet, a vet"
     ],
     [
         "Tisch",
         "m",
         "Tische",
-        "Table"
+        "table, desk"
     ],
     [
         "Tochter",
         "f",
         "Töchter",
-        "Daughter"
+        "daughter"
     ],
     [
         "Toilette",
         "f",
         "Toiletten",
-        "toilet"
+        "restroom"
     ],
     [
         "Torte",
         "f",
         "Torten",
-        "cake"
+        "layer cake"
     ],
     [
         "Traumberuf",
         "m",
         "Traumberufe",
-        "Dream job"
+        "dream job"
     ],
     [
         "Treffen",
         "n",
         "Treffen",
-        "Meet"
+        "meeting"
     ],
     [
         "Treppe",
         "f",
         "Treppen",
-        "Stairs"
+        "stairs, steps, staircase"
     ],
     [
         "Trinkgeld",
         "n",
         "Trinkgelder",
-        "Tip"
+        "tip"
     ],
     [
         "Typ",
         "m",
         "Typen",
-        "type"
+        "guy"
     ],
     [
         "Tür",
         "f",
         "Türen",
-        "door"
+        "door, doorway"
     ],
     [
         "Türkei",
         "f",
         "",
-        "Türkiye"
+        "Turkey"
     ],
     [
         "Tüte",
         "f",
         "Tüten",
-        "Bag"
+        "bag"
     ],
     [
         "Ufo",
@@ -3339,19 +3339,19 @@
         "Uhr",
         "f",
         "Uhren",
-        "Clock"
+        "watch, clock, o'clock"
     ],
     [
         "Umwelt",
         "f",
         "Umwelten",
-        "Environment"
+        "environment"
     ],
     [
         "Umzug",
         "m",
         "Umzüge",
-        "Relocation"
+        "move"
     ],
     [
         "Ungeheuer",
@@ -3363,13 +3363,13 @@
         "Universität",
         "f",
         "Universitäten",
-        "university"
+        "university, uni, college"
     ],
     [
         "Urlaub",
         "m",
         "Urlaube",
-        "Vacation"
+        "vacation, a vacation, holidays"
     ],
     [
         "Vase",
@@ -3381,7 +3381,7 @@
         "Vater",
         "m",
         "Väter",
-        "Father"
+        "father"
     ],
     [
         "Vatertag",
@@ -3399,19 +3399,19 @@
         "Verspätung",
         "f",
         "Verspätungen",
-        "Tardiness"
+        "delay"
     ],
     [
         "Viertel",
         "f",
         "Viertel",
-        "Quarter"
+        "quarter"
     ],
     [
         "Viertelstunde",
         "f",
         "Viertelstunden",
-        "Quarter of an hour"
+        "quarter of an hour"
     ],
     [
         "Visum",
@@ -3423,7 +3423,7 @@
         "Vogel",
         "m",
         "Vögel",
-        "Bird"
+        "bird"
     ],
     [
         "Volleyball",
@@ -3435,13 +3435,13 @@
         "Vollzeit",
         "f",
         "",
-        "Full -time"
+        "full-time"
     ],
     [
         "Vorhang",
         "m",
         "Vorhänge",
-        "Curtain"
+        "curtain"
     ],
     [
         "Vorlesung",
@@ -3453,67 +3453,67 @@
         "Vorname",
         "m",
         "Vornamen",
-        "First name"
+        "first name"
     ],
     [
         "Vögeln",
         "n",
         "",
-        "Fuck"
+        "birds"
     ],
     [
         "Wald",
         "m",
         "Wälder",
-        "Forest"
+        "forest, wood, woods"
     ],
     [
         "Wand",
         "f",
         "Wände",
-        "Wall"
+        "wall"
     ],
     [
         "Wartezimmer",
         "n",
         "Wartezimmer",
-        "Waiting room"
+        "waiting room"
     ],
     [
         "Wasser",
         "n",
         "Wasser",
-        "Water"
+        "water"
     ],
     [
         "Wasserflasche",
         "f",
         "Wasserflaschen",
-        "Water bottle"
+        "water bottle"
     ],
     [
         "Wasserkocher",
         "m",
         "Wasserkocher",
-        "Kettle"
+        "electric kettle"
     ],
     [
         "Wassermelone",
         "f",
         "Wassermelonen",
-        "Watermelon"
+        "watermelon"
     ],
     [
         "Wecker",
         "m",
         "Wecker",
-        "Alarm clock"
+        "alarm"
     ],
     [
         "Weihnachten",
         "n",
         "Weihnachten",
-        "Christmas"
+        "Christmas, Christmases"
     ],
     [
         "Weihnachtsbaum",
@@ -3525,7 +3525,7 @@
         "Weihnachtsmann",
         "m",
         "Weihnachtsmänner",
-        "Santa Claus"
+        "Santa, Santa Claus, Father Christmas"
     ],
     [
         "Weihnachtsmarkt",
@@ -3537,31 +3537,31 @@
         "Wein",
         "m",
         "Weine",
-        "Wine"
+        "wine"
     ],
     [
         "Weißbier",
         "n",
         "Weißbiere",
-        "Wheat beer"
+        "wheat beer"
     ],
     [
         "Weißwein",
         "m",
         "Weißweine",
-        "White wine"
+        "white wine"
     ],
     [
         "Welt",
         "n",
         "Welten",
-        "World"
+        "world"
     ],
     [
         "Wetter",
         "m",
         "Wetter",
-        "Weather"
+        "weather"
     ],
     [
         "Wien",
@@ -3573,31 +3573,31 @@
         "Wiese",
         "f",
         "Wiesen",
-        "Meadow"
+        "field"
     ],
     [
         "Winter",
         "m",
         "Winter",
-        "winter"
+        "winters, winter"
     ],
     [
         "Witz",
         "m",
         "Witze",
-        "Joke"
+        "joke"
     ],
     [
         "Witz",
         "m",
         "Witze",
-        "Joke"
+        "joke"
     ],
     [
         "Woche",
         "f",
         "Wochen",
-        "Week"
+        "week"
     ],
     [
         "Wochenende",
@@ -3609,37 +3609,37 @@
         "Wohnung",
         "f",
         "Wohnungen",
-        "Apartment"
+        "apartment, flat"
     ],
     [
         "Wohnzimmer",
         "n",
         "Wohnzimmer",
-        "Living room"
+        "living room, lounge, sitting room"
     ],
     [
         "Wort",
         "n",
         "Worte",
-        "Word"
+        "word"
     ],
     [
         "Wurst",
         "f",
         "Würste",
-        "Sausage"
+        "sausage"
     ],
     [
         "Wörterbuch",
         "n",
         "Wörterbücher",
-        "dictionary"
+        "dictionary, wordbook"
     ],
     [
         "Würstchen",
         "n",
         "Würstchen",
-        "Sausage"
+        "sausage"
     ],
     [
         "Yoga",
@@ -3651,7 +3651,7 @@
         "Yogamatte",
         "f",
         "Yogamatten",
-        "Yoga mat"
+        "yoga mat"
     ],
     [
         "Zahnarzt",
@@ -3663,7 +3663,7 @@
         "Zahnärztin",
         "f",
         "Zahnärztinnen",
-        "Dentist"
+        "dentist"
     ],
     [
         "Zeichnung",
@@ -3675,7 +3675,7 @@
         "Zeit",
         "m",
         "Zeiten",
-        "Time"
+        "time"
     ],
     [
         "Zeitschrift",
@@ -3687,25 +3687,25 @@
         "Zeitung",
         "f",
         "Zeitungen",
-        "Newspaper"
+        "newspaper"
     ],
     [
         "Zelt",
         "m",
         "Zelte",
-        "Tent"
+        "tent"
     ],
     [
         "Zeugnis",
         "n",
         "Zeugnisse",
-        "Transcript"
+        "report card"
     ],
     [
         "Zimmer",
         "m",
         "Zimmer",
-        "Room"
+        "room"
     ],
     [
         "Zitrone",
@@ -3717,31 +3717,31 @@
         "Zoll",
         "m",
         "Zoll",
-        "Customs"
+        "customs, customs office"
     ],
     [
         "Zoo",
         "m",
         "Zoos",
-        "zoo"
+        "ZOO"
     ],
     [
         "Zucker",
         "m",
         "Zucker",
-        "Sugar"
+        "sugar"
     ],
     [
         "Zug",
         "n",
         "Züge",
-        "Train"
+        "train"
     ],
     [
         "Zugtür",
         "f",
         "Zugtüren",
-        "Lug"
+        "train door"
     ],
     [
         "Zürich",
@@ -3759,7 +3759,7 @@
         "Ärztin",
         "f",
         "Ärztinnen",
-        "Doctor"
+        "doctor, a doctor"
     ],
     [
         "Österreich",
@@ -3771,37 +3771,37 @@
         "Überraschung",
         "f",
         "Überraschungen",
-        "Surprise"
+        "surprise"
     ],
     [
         "Bestellung",
         "f",
         "Bestellungen",
-        "Order"
+        "order"
     ],
     [
         "Besuch",
         "m",
         "Besuche",
-        "Visit"
+        "visit, visitors"
     ],
     [
         "Bett",
         "n",
         "Betten",
-        "Bed"
+        "bed"
     ],
     [
         "Bettdecke",
         "f",
         "Bettdecken",
-        "Duvet"
+        "bedspread, blanket, bed blanket"
     ],
     [
         "Bettlaken",
         "n",
         "Bettlaken",
-        "Bed sheet"
+        "bed sheets"
     ],
     [
         "Bibliothek",
@@ -3813,37 +3813,37 @@
         "Bier",
         "n",
         "Biere",
-        "Beer"
+        "beer"
     ],
     [
         "Biergarten",
         "m",
         "Biergärten",
-        "Beer garden"
+        "beer garden"
     ],
     [
         "Bierkrug",
         "m",
         "Bierkrüge",
-        "Beer jug"
+        "beer mug"
     ],
     [
         "Bild",
         "m",
         "Bilder",
-        "Picture"
+        "painting, picture, photo"
     ],
     [
         "Bildschirm",
         "m",
         "Bildschirme",
-        "Screen"
+        "monitor"
     ],
     [
         "Bioladen",
         "m",
         "Bioläden",
-        "Organic shop"
+        "health food store"
     ],
     [
         "Biologie",
@@ -3855,37 +3855,37 @@
         "Bitte",
         "f",
         "Bitten",
-        "Please"
+        "request"
     ],
     [
         "Bleistift",
         "m",
         "Bleistifte",
-        "Pencil"
+        "pencil"
     ],
     [
         "Blick",
         "m",
         "Blicke",
-        "View"
+        "view, look"
     ],
     [
         "Blumenladen",
         "m",
         "Blumenläden",
-        "Flower shop"
+        "florist"
     ],
     [
         "Bluse",
         "f",
         "Blusen",
-        "Blouse"
+        "blouse, shirt, top"
     ],
     [
         "Boden",
         "m",
         "Böden",
-        "Floor"
+        "floor"
     ],
     [
         "Boot",
@@ -3909,61 +3909,61 @@
         "Briefmarke",
         "f",
         "Briefmarken",
-        "Stamp"
+        "stamp"
     ],
     [
         "Briefumschlag",
         "m",
         "Briefumschläge",
-        "Envelope"
+        "envelope"
     ],
     [
         "Brille",
         "f",
         "Brillen",
-        "Glasses"
+        "glasses, spectacles, eyeglasses"
     ],
     [
         "Brot",
         "n",
         "Brote",
-        "Bread"
+        "bread"
     ],
     [
         "Bruder",
         "m",
         "Brüder",
-        "Brother"
+        "brother"
     ],
     [
         "Brötchen",
         "n",
         "Brötchen",
-        "Bread rolls"
+        "roll, bread roll, bun"
     ],
     [
         "Brücke",
         "m",
         "Brücken",
-        "Bridge"
+        "bridge"
     ],
     [
         "Buch",
         "n",
         "Bücher",
-        "Book"
+        "book"
     ],
     [
         "Buchladen",
         "m",
         "Buchläden",
-        "Bookstore"
+        "bookstore, bookshop"
     ],
     [
         "Burger",
         "m",
         "Burger",
-        "Citizens"
+        "burger, burgers"
     ],
     [
         "Bus",
@@ -3975,7 +3975,7 @@
         "Bushaltestelle",
         "f",
         "Bushaltestellen",
-        "Bus stop"
+        "bus stop"
     ],
     [
         "Butter",
@@ -3987,7 +3987,7 @@
         "Bäckerei",
         "f",
         "Bäckereien",
-        "bakery"
+        "bakery, baker's"
     ],
     [
         "Bär",
@@ -3999,7 +3999,7 @@
         "Bäuerin",
         "f",
         "Bäuerinnen",
-        "Farmer"
+        "farmer"
     ],
     [
         "Bücherei",
@@ -4011,7 +4011,7 @@
         "Bücherregal",
         "n",
         "Bücherregale",
-        "bookshelf"
+        "bookcase, bookshelf"
     ],
     [
         "Bühne",
@@ -4023,7 +4023,7 @@
         "Büro",
         "n",
         "Büros",
-        "Office"
+        "office"
     ],
     [
         "Campus",
@@ -4035,7 +4035,7 @@
         "Cent",
         "m",
         "Cent",
-        "cent"
+        "cents, cent"
     ],
     [
         "Chor",
@@ -4053,7 +4053,7 @@
         "Club",
         "m",
         "Clubs",
-        "Club"
+        "club, clubs"
     ],
     [
         "Cola",
@@ -4065,7 +4065,7 @@
         "Computer",
         "m",
         "Computer",
-        "computer"
+        "computers, computer"
     ],
     [
         "Couch",
@@ -4089,19 +4089,19 @@
         "Currywurst",
         "f",
         "Currywürste",
-        "Currywurst"
+        "curry Sausage, currywurst, curried"
     ],
     [
         "Date",
         "n",
         "Dates",
-        "Date"
+        "date"
     ],
     [
         "Decke",
         "f",
         "Decken",
-        "Ceiling"
+        "blanket"
     ],
     [
         "Deutsch",
@@ -4113,7 +4113,7 @@
         "Deutsche",
         "f",
         "",
-        "German"
+        "German, a German, Germans"
     ],
     [
         "Deutscher",
@@ -4143,13 +4143,13 @@
         "Dollar",
         "m",
         "Dollar",
-        "dollar"
+        "dollar, dollars"
     ],
     [
         "Dom",
         "m",
         "Dome",
-        "Cathedral"
+        "cathedral"
     ],
     [
         "Donnerstag",
@@ -4161,91 +4161,91 @@
         "Doppelzimmer",
         "n",
         "Doppelzimmer",
-        "Double room"
+        "double room"
     ],
     [
         "Dorf",
         "n",
         "Dörfer",
-        "Village"
+        "village, town, small town"
     ],
     [
         "Dose",
         "f",
         "Dosen",
-        "Can"
+        "can"
     ],
     [
         "Drucker",
         "m",
         "Drucker",
-        "Printer"
+        "printer"
     ],
     [
         "Durst",
         "m",
         "",
-        "thirst"
+        "thirst, thirsty IL"
     ],
     [
         "Döner",
         "m",
         "Döner",
-        "Kebab"
+        "doner kebab, kebab"
     ],
     [
         "E-Mail",
         "f",
         "E-Mails",
-        "e-mail"
+        "nn"
     ],
     [
         "Durst",
         "m",
         "",
-        "thirst"
+        "thirst, thirsty"
     ],
     [
         "Dusche",
         "f",
         "Duschen",
-        "Shower"
+        "shower"
     ],
     [
         "Döner",
         "m",
         "Döner",
-        "Kebab"
+        "doner kebab, kebab"
     ],
     [
         "E-Mail",
         "f",
         "E-Mails",
-        "e-mail"
+        "e-mail, email"
     ],
     [
         "E-Mail-Adresse",
         "f",
         "E-Mail-Adressen",
-        "E-mail address"
+        "e-mail address"
     ],
     [
         "Ecke",
         "f",
         "Ecken",
-        "Corner"
+        "corner"
     ],
     [
         "Ehefrau",
         "f",
         "Ehefrauen",
-        "Wife"
+        "wife"
     ],
     [
         "Ehemann",
         "m",
         "Ehemänner",
-        "Husband"
+        "husband"
     ],
     [
         "Ei",
@@ -4257,43 +4257,43 @@
         "Einkaufszentrum",
         "n",
         "Einkaufszentren",
-        "Shopping center"
+        "shopping mall"
     ],
     [
         "Einladung",
         "f",
         "Einladungen",
-        "Invitation"
+        "invitation"
     ],
     [
         "Eintrittskarte",
         "f",
         "Eintrittskarten",
-        "Admission ticket"
+        "admission ticket, [admission/entry/"
     ],
     [
         "Einweihungsparty",
         "f",
         "Einweihungspartys",
-        "Inauguration party"
+        "housewarming party"
     ],
     [
         "Einzelzimmer",
         "n",
         "Einzelzimmer",
-        "Single room"
+        "single room"
     ],
     [
         "Eis",
         "n",
         "Eis",
-        "Ice"
+        "ice cream, ice"
     ],
     [
         "Eiskaffee",
         "m",
         "Eiskaffees",
-        "iced coffee"
+        "ice cream coffee, coffee with ice"
     ],
     [
         "Elefant",
@@ -4311,7 +4311,7 @@
         "Entschuldigung",
         "f",
         "Entschuldigungen",
-        "Excuse me"
+        "sorry, excuse me, apologies"
     ],
     [
         "Erdkunde",
@@ -4323,13 +4323,13 @@
         "Erkältung",
         "f",
         "Erkältungen",
-        "A cold"
+        "cold, coldest, colds"
     ],
     [
         "Erwachsene",
         "f",
         "",
-        "Adult"
+        "adult, adults"
     ],
     [
         "es",
@@ -4341,13 +4341,13 @@
         "Essen",
         "n",
         "Essen",
-        "Eat"
+        "food"
     ],
     [
         "Essig",
         "n",
         "Essige",
-        "Vinegar"
+        "vinegar"
     ],
     [
         "Esszimmer",
@@ -4359,19 +4359,19 @@
         "Eule",
         "f",
         "Eulen",
-        "Owl"
+        "owl"
     ],
     [
         "Euro",
         "f",
         "Euros",
-        "euro"
+        "euros, euro"
     ],
     [
         "Fach",
         "n",
         "Fächer",
-        "Academic subject"
+        "subject"
     ],
     [
         "Fahrkarte",
@@ -4383,37 +4383,37 @@
         "Fahrrad",
         "n",
         "Fahrräder",
-        "Bicycle"
+        "bicycle"
     ],
     [
         "Fahrradfahren",
         "n",
         "",
-        "Ride a bike"
+        "riding a bike, bike riding, biking"
     ],
     [
         "Fahrradhelm",
         "m",
         "Fahrradhelme",
-        "Bicycle helmet"
+        "bicycle helmet"
     ],
     [
         "Fahrt",
         "f",
         "Fahrten",
-        "Drive"
+        "trip"
     ],
     [
         "Familie",
         "f",
         "Familien",
-        "Family"
+        "family"
     ],
     [
         "Farbe",
         "f",
         "Farben",
-        "Color"
+        "color, paint"
     ],
     [
         "Februar",
@@ -4425,61 +4425,61 @@
         "Federball",
         "m",
         "Federbälle",
-        "Badmint"
+        "badminton"
     ],
     [
         "Feierabend",
         "m",
         "Feierabende",
-        "Quitting time"
+        "end of the workday"
     ],
     [
         "Feiertag",
         "m",
         "Feiertage",
-        "Holiday"
+        "holiday, bank holiday, public holiday"
     ],
     [
         "Fenster",
         "n",
         "Fenster",
-        "Window"
+        "window"
     ],
     [
         "Fernsehen",
         "n",
         "",
-        "TV"
+        "TV, television, watching TV"
     ],
     [
         "Fernseher",
         "m",
         "Fernseher",
-        "TV"
+        "TV, TV set, television"
     ],
     [
         "Fest",
         "n",
         "Feste",
-        "Firmly"
+        "festival"
     ],
     [
         "Fieber",
         "n",
         "Fieber",
-        "Fever"
+        "fever"
     ],
     [
         "Film",
         "m",
         "Filme",
-        "film"
+        "movie, film"
     ],
     [
         "Filmstar",
         "m",
         "Filmstars",
-        "Film star"
+        "movie star"
     ],
     [
         "Firma",
@@ -4491,67 +4491,67 @@
         "Fisch",
         "m",
         "Fische",
-        "Fish"
+        "fish"
     ],
     [
         "Fitnessstudio",
         "n",
         "Fitnessstudios",
-        "Gym"
+        "gym, health club, exercise centre"
     ],
     [
         "Flasche",
         "f",
         "Flaschen",
-        "Bottle"
+        "bottle"
     ],
     [
         "Fleisch",
         "n",
         "",
-        "Meat"
+        "meat"
     ],
     [
         "Flohmarkt",
         "m",
         "Flohmärkte",
-        "Flea market"
+        "flea market"
     ],
     [
         "Flug",
         "m",
         "Flüge",
-        "Flight"
+        "flight"
     ],
     [
         "Flughafen",
         "m",
         "Flughäfen",
-        "Airport"
+        "airport"
     ],
     [
         "Flugzeug",
         "n",
         "Flugzeuge",
-        "Airplane"
+        "airplane"
     ],
     [
         "Fluss",
         "m",
         "Flüsse",
-        "Flow"
+        "river"
     ],
     [
         "Formular",
         "n",
         "Formulare",
-        "Form"
+        "form, questionnaire"
     ],
     [
         "Frage",
         "f",
         "Fragen",
-        "Ask"
+        "question"
     ],
     [
         "Frankreich",
@@ -4569,7 +4569,7 @@
         "Frau",
         "f",
         "Frauen",
-        "Woman"
+        "woman, wife, Ms."
     ],
     [
         "Freiburg",
@@ -4587,30 +4587,30 @@
         "Freizeit",
         "f",
         "Freizeiten",
-        "Leisure time"
+        "free time, leisure time, spare time"
     ],
     [
         "Freund",
         "n",
         "Freunde",
-        "Friend"
+        "boyfriend, partner"
     ],
     [
         "Freundin",
         "f",
         "Freundinnen",
-        "Girlfriend"
+        "girlfriend, friend, friend's"
     ],
     [
         "Friseur",
         "m",
         "Friseure",
-        "Barber"
+        "hairstylist, barber, hairdresser"
     ],
     [
         "Friseurin",
         "f",
         "Friseurinnen",
-        "Hairdresser"
+        "hairdresser, hairstylist"
     ]
 ]

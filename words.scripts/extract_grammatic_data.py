@@ -1,7 +1,6 @@
 import dewiktionaryparser as dw
 import json
-from googletrans import Translator
-import time
+import re
 
 # Initialize dictionaries for grammatical information
 word_entries = dw.GermanNounEntriesDict()
@@ -9,57 +8,47 @@ word_entries = dw.GermanNounEntriesDict()
 # Retrieve the dictionaries from the JSON files
 word_entries.retrieve_from_json('./data/de_noun_entries.json')
 
-# Initialize the Google Translate API
-translator = Translator()
-
-# Path to the file containing the extracted German words
+# Path to the file containing the extracted German words and translations
 input_file_path = './extracted_german_words.txt'
 
 # Output data structure
 output_data = []
 
-# Function to translate a word using Google Translate with retry mechanism and delays
-def translate_word(word, retries=3):
-    for i in range(retries):
-        try:
-            result = translator.translate(word, src='de', dest='en')
-            return result.text
-        except Exception as e:
-            print(f"Error translating word '{word}': {e}")
-            if i < retries - 1:
-                print(f"Retrying in 30 seconds...")
-                time.sleep(30)  # Wait for 30 seconds before retrying
-            else:
-                return ""  # Return empty string if all retries fail
+# Function to parse the line and extract the German word and its translation
+def parse_line(line):
+    match = re.match(r'^(.+?)\s*\[(.*?)\]$', line.strip())
+    if match:
+        german_word = match.group(1)
+        english_translation = match.group(2)
+        return german_word, english_translation
+    return None, None
 
 # Process each word in the input file
 with open(input_file_path, 'r', encoding='utf-8') as file:
     for line in file:
-        word = line.strip()  # Remove any leading/trailing whitespace
+        german_word, english_translation = parse_line(line)
 
-        # Check if the word is in the grammatical dictionary and if it's a noun
-        if word in word_entries:
-            entry = word_entries[word]
-            gender = None
-            plural_form = ""
+        if german_word:
+            # Check if the word is in the grammatical dictionary and if it's a noun
+            if german_word in word_entries:
+                entry = word_entries[german_word]
+                gender = None
+                plural_form = ""
 
-            for usage in entry.values():
-                if 'gen_case_num' in usage:  # Ensure it has grammatical information (likely a noun)
-                    genus = usage['gen_case_num']['genus'].get('sg1', [])
-                    if genus:  # Check if the genus list is not empty
-                        gender = genus[0]
+                for usage in entry.values():
+                    if 'gen_case_num' in usage:  # Ensure it has grammatical information (likely a noun)
+                        genus = usage['gen_case_num']['genus'].get('sg1', [])
+                        if genus:  # Check if the genus list is not empty
+                            gender = genus[0]
 
-                    # Extracting the plural form in the nominative case
-                    if 'nominativ' in usage['gen_case_num'] and 'plural' in usage['gen_case_num']['nominativ']:
-                        plural_forms = usage['gen_case_num']['nominativ']['plural'].get('pl1', [])
-                        if plural_forms:  # Check if the list is not empty
-                            plural_form = plural_forms[0]
+                        # Extracting the plural form in the nominative case
+                        if 'nominativ' in usage['gen_case_num'] and 'plural' in usage['gen_case_num']['nominativ']:
+                            plural_forms = usage['gen_case_num']['nominativ']['plural'].get('pl1', [])
+                            if plural_forms:  # Check if the list is not empty
+                                plural_form = plural_forms[0]
 
-            if gender:  # Only process further if gender is present
-                # Translate the word using Google Translate API
-                english_translation = translate_word(word)
-                output_data.append([word, gender, plural_form, english_translation])
-                time.sleep(0.2)  # Wait for 0.2 seconds between translation requests
+                if gender:  # Only process further if gender is present
+                    output_data.append([german_word, gender, plural_form, english_translation])
 
 # Save the output data to a JSON file
 output_file_path = './german_nouns_with_gender_plural_and_translation.json'
