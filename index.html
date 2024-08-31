@@ -21,6 +21,7 @@
         flex-direction: column;
         justify-content: space-between;
       }
+
       #word {
         font-size: 3rem;
         margin-bottom: 0.5rem;
@@ -67,4 +68,24 @@
         background-color: #9c27b0;
         color: white;
         width: 100%;
-      }</style><script defer="defer" src="/duo-german-nouns/bundle.js"></script></head><body><div id="app"><div><div id="word"></div><div id="plural"></div><div id="translation"></div></div><div id="buttons"><button id="der">der</button> <button id="die">die</button> <button id="das">das</button></div><div><div id="feedback"></div><div id="continue-wrapper"><button id="continue">Continue</button></div></div></div><script src="bundle.js"></script></body></html>
+      }
+
+      footer {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+        width: 100%;
+        padding: 1rem 0;
+        background-color: #f0f8ff;
+      }
+
+      footer a {
+        color: #333;
+        text-decoration: none;
+      }
+
+      footer a:hover {
+        text-decoration: underline;
+      }</style><script defer="defer" src="/duo-german-nouns/bundle.js"></script></head><body><div id="app"><div><div id="word"></div><div id="plural"></div><div id="translation"></div></div><div id="buttons"><button id="der">der</button> <button id="die">die</button> <button id="das">das</button></div><div><div id="feedback"></div><div id="continue-wrapper"><button id="continue">Continue</button></div></div><label><input type="checkbox" id="mistakes-checkbox"/> Mistakes only</label></div><footer id="footer">Author: <a href="mailto:borisovke@gmail.com">borisovke@gmail.com</a></footer><script src="bundle.js"></script></body></html>
