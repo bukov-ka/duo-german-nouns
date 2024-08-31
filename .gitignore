@@ -2,3 +2,4 @@
 /words.scripts/data
 node_modules
 dist
+/prompt/sources.txt

@@ -9,6 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
     document.getElementById("die") as HTMLButtonElement,
     document.getElementById("das") as HTMLButtonElement,
     document.getElementById("feedback")!,
-    document.getElementById("continue") as HTMLButtonElement
+    document.getElementById("continue") as HTMLButtonElement,
+    document.getElementById("mistakes-checkbox") as HTMLInputElement 
   );
 });
