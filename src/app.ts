@@ -1,11 +1,15 @@
 import { Noun, loadNouns } from "./data";
 
+interface MistakeEntry {
+  noun: Noun;
+  correctAttempts: number;
+}
+
 export class App {
   private nouns: Noun[] = [];
   private currentNoun: Noun | null = null;
 
-  private mistakes: Map<string, { noun: Noun; correctAttempts: number }> =
-    new Map();
+  private mistakes: Map<string, MistakeEntry> = new Map();
   private showingMistakes: boolean = false;
 
   constructor(
@@ -23,6 +27,7 @@ export class App {
   }
 
   private async initialize() {
+    this.loadMistakes(); // Load mistakes from localStorage
     this.nouns = await loadNouns();
     this.setupEventListeners();
     this.nextWord();
@@ -33,7 +38,7 @@ export class App {
     this.dieButton.addEventListener("click", () => this.checkAnswer("f"));
     this.dasButton.addEventListener("click", () => this.checkAnswer("n"));
     this.continueButton.addEventListener("click", () => this.nextWord());
-    this.mistakesCheckbox.addEventListener("change", () => this.toggleMistakes()); 
+    this.mistakesCheckbox.addEventListener("change", () => this.toggleMistakes());
   }
 
   private toggleMistakes() {
@@ -45,7 +50,7 @@ export class App {
     const wordList = this.showingMistakes
       ? Array.from(this.mistakes.values()).map((entry) => entry.noun)
       : this.nouns;
-  
+
     if (wordList.length === 0) {
       this.wordElement.textContent = "No mistakes left";
       this.pluralElement.textContent = "";
@@ -56,8 +61,8 @@ export class App {
       return;
     }
 
-    this.showGenderButtons(); 
-  
+    this.showGenderButtons();
+
     this.currentNoun = wordList[Math.floor(Math.random() * wordList.length)];
     this.wordElement.textContent = this.currentNoun.word;
     this.pluralElement.textContent = `Plural: ${this.currentNoun.plural}`;
@@ -72,7 +77,7 @@ export class App {
       button.style.display = "none"; // Hide buttons
     });
   }
-  
+
   private showGenderButtons() {
     [this.derButton, this.dieButton, this.dasButton].forEach((button) => {
       button.style.display = "inline-block"; // Show buttons
@@ -81,14 +86,14 @@ export class App {
 
   private checkAnswer(answer: "n" | "m" | "f") {
     if (!this.currentNoun) return;
-  
+
     const correct = answer === this.currentNoun.gender;
     const selectedButton = this.getButtonForGender(answer);
     const correctButton = this.getButtonForGender(this.currentNoun.gender);
-  
+
     this.resetButtons();
     correctButton.style.backgroundColor = "#4CAF50";
-  
+
     if (correct) {
       this.feedbackElement.textContent = "Correct!";
       if (this.mistakes.has(this.currentNoun.word)) {
@@ -96,6 +101,10 @@ export class App {
         mistake.correctAttempts++;
         if (mistake.correctAttempts >= 2) {
           this.mistakes.delete(this.currentNoun.word);
+          this.saveMistakes(); // Save after deletion
+        } else {
+          this.mistakes.set(this.currentNoun.word, mistake);
+          this.saveMistakes(); // Save after update
         }
       }
     } else {
@@ -106,12 +115,12 @@ export class App {
           noun: this.currentNoun,
           correctAttempts: 0,
         });
+        this.saveMistakes(); // Save after adding a new mistake
       }
     }
-  
+
     this.continueButton.style.visibility = "visible";
   }
-
 
   private getButtonForGender(gender: "n" | "m" | "f"): HTMLButtonElement {
     switch (gender) {
@@ -128,5 +137,25 @@ export class App {
     [this.derButton, this.dieButton, this.dasButton].forEach((button) => {
       button.style.backgroundColor = "#9e9e9e"; // Reset to gray
     });
+  }
+
+  // New method to load mistakes from localStorage
+  private loadMistakes() {
+    const storedMistakes = localStorage.getItem("mistakes");
+    if (storedMistakes) {
+      try {
+        const parsed: [string, MistakeEntry][] = JSON.parse(storedMistakes);
+        this.mistakes = new Map(parsed);
+      } catch (error) {
+        console.error("Failed to parse mistakes from localStorage:", error);
+        this.mistakes = new Map();
+      }
+    }
+  }
+
+  // New method to save mistakes to localStorage
+  private saveMistakes() {
+    const serialized = JSON.stringify(Array.from(this.mistakes.entries()));
+    localStorage.setItem("mistakes", serialized);
   }
 }
