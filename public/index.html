@@ -18,6 +18,7 @@
         margin: 0;
         background-color: #f0f8ff;
       }
+
       #app {
         text-align: center;
         background-color: white;
@@ -26,10 +27,11 @@
         box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
         width: 90%;
         max-width: 350px;
-        height: 480px; /* Fixed height */
+        height: 480px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        align-items: center;
       }
 
       #word {
@@ -99,6 +101,27 @@
       footer a:hover {
         text-decoration: underline;
       }
+
+      #word small {
+        font-size: 1.5rem;
+        color: #666;
+        margin-right: 0.5rem;
+      }
+
+      .checkbox-container {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 50%;
+        gap: 0.5rem;
+        margin-top: 1rem;
+      }
+
+      .checkbox-container label {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+      }
     </style>
   </head>
   <body>
@@ -119,10 +142,16 @@
           <button id="continue">Continue</button>
         </div>
       </div>
-      <label>
-        <input type="checkbox" id="mistakes-checkbox" />
-        Mistakes only
-      </label>
+      <div class="checkbox-container">
+        <label>
+          <input type="checkbox" id="mistakes-checkbox" />
+          Mistakes only
+        </label>
+        <label>
+          <input type="checkbox" id="show-article-checkbox" />
+          Show article
+        </label>
+      </div>
     </div>
 
     <footer id="footer">

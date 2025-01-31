@@ -11,6 +11,7 @@ export class App {
 
   private mistakes: Map<string, MistakeEntry> = new Map();
   private showingMistakes: boolean = false;
+  private showingArticle: boolean = false;
 
   constructor(
     private wordElement: HTMLElement,
@@ -21,7 +22,8 @@ export class App {
     private dasButton: HTMLButtonElement,
     private feedbackElement: HTMLElement,
     private continueButton: HTMLButtonElement,
-    private mistakesCheckbox: HTMLInputElement
+    private mistakesCheckbox: HTMLInputElement,
+    private showArticleCheckbox: HTMLInputElement 
   ) {
     this.initialize();
   }
@@ -39,11 +41,41 @@ export class App {
     this.dasButton.addEventListener("click", () => this.checkAnswer("n"));
     this.continueButton.addEventListener("click", () => this.nextWord());
     this.mistakesCheckbox.addEventListener("change", () => this.toggleMistakes());
+    this.showArticleCheckbox.addEventListener("change", () => this.toggleArticle());
   }
 
   private toggleMistakes() {
     this.showingMistakes = this.mistakesCheckbox.checked;
     this.nextWord();
+  }
+
+  private toggleArticle() {
+    this.showingArticle = this.showArticleCheckbox.checked;
+    if (this.currentNoun) {
+      this.displayWord(this.currentNoun);
+    }
+  }
+
+  
+  private getArticleForGender(gender: "n" | "m" | "f"): string {
+    switch (gender) {
+      case "m":
+        return "der";
+      case "f":
+        return "die";
+      case "n":
+        return "das";
+    }
+  }
+
+  private displayWord(noun: Noun) {
+    if (this.showingArticle) {
+      this.wordElement.innerHTML = `<small>${this.getArticleForGender(noun.gender)}</small> ${noun.word}`;
+    } else {
+      this.wordElement.textContent = noun.word;
+    }
+    this.pluralElement.textContent = `Plural: ${noun.plural}`;
+    this.translationElement.textContent = `Translation: ${noun.translation.toLowerCase()}`;
   }
 
   private nextWord() {
@@ -64,9 +96,7 @@ export class App {
     this.showGenderButtons();
 
     this.currentNoun = wordList[Math.floor(Math.random() * wordList.length)];
-    this.wordElement.textContent = this.currentNoun.word;
-    this.pluralElement.textContent = `Plural: ${this.currentNoun.plural}`;
-    this.translationElement.textContent = `Translation: ${this.currentNoun.translation.toLowerCase()}`;
+    this.displayWord(this.currentNoun);
     this.feedbackElement.textContent = "";
     this.continueButton.style.visibility = "hidden";
     this.resetButtons();
